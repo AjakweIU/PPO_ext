@@ -1,0 +1,23 @@
+purpose: candidate_reward_sensitivity_configurations_for_later_training
+selection_status: candidates_only_not_ranked_or_selected
+weights:
+  default:
+    throughput: 1.0
+    energy: 0.1
+    leakage: 10.0
+    violation: 5.0
+  energy_aware:
+    throughput: 1.0
+    energy: 0.2
+    leakage: 10.0
+    violation: 5.0
+  safety_oriented:
+    throughput: 1.0
+    energy: 0.1
+    leakage: 10.0
+    violation: 10.0
+  throughput_oriented:
+    throughput: 1.5
+    energy: 0.1
+    leakage: 10.0
+    violation: 5.0

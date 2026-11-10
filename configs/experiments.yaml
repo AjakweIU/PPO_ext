@@ -1,0 +1,25 @@
+splits:
+  train_seed: 42
+  validation_seed: 123
+  test_seed: 456
+  train_fraction: 0.70
+  validation_fraction: 0.15
+  test_fraction: 0.15
+
+ood:
+  enabled: true
+  separate_test_set: true
+  generator: ScenarioGenerator
+  scenario_types:
+    - high_demand
+    - low_supply
+    - equipment_failure
+    - energy_price_spike
+
+reproducibility:
+  preserve_raw_outputs: true
+  unique_run_directory: true
+  timestamped_results: true
+  save_seeds: true
+  save_configs: true
+  save_checkpoints: false

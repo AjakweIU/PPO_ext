@@ -1,0 +1,6523 @@
+{
+  "generated_at": "2026-11-10T03:59:15.045710+00:00",
+  "output_dir": "results\\raw\\phase2_validation\\phase2b_alignment_20261110_035914_222668",
+  "observation_dimensions": {
+    "normalization_ranges": 29,
+    "base_config_features": 29,
+    "phase1_config_ranges": 29
+  },
+  "split_overlap": {
+    "train_validation": [],
+    "train_test": [],
+    "validation_test": [],
+    "ood_in_distribution": []
+  },
+  "action_coupling_probes": {
+    "source_low_delivery": 1260.0,
+    "source_high_delivery": 5200.0,
+    "source_controls_change_delivery": true,
+    "compressor_low_delivery": 3150.0,
+    "compressor_high_delivery": 3150.0,
+    "compressor_control_delivery_change": false,
+    "compressor_low_reward": 315.0,
+    "compressor_high_reward": 315.0,
+    "compressor_power_state_low": 0.0,
+    "compressor_power_state_high": 0.0,
+    "action_projection_limits_source_and_compressor": true
+  },
+  "scenario_coupling_probes": [
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_500",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_501",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_502",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_503",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_504",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_505",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_506",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_507",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_508",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_509",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_510",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_511",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_512",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_513",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_514",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_515",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_516",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_517",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_518",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "normal",
+      "scenario_id": "validation_normal_519",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.16,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.005,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_500",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.21314460801537896,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.011846130140290935,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_501",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2032964618933491,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.018992650812808605,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_502",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.3128073833476353,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.001777894409893148,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_503",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.26812691213097606,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.0015507542120699654,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_504",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2587330179333047,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.012692174181482212,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_505",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.15130998449940147,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01922371693379308,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_506",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.22138457603246034,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01610011485705638,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_507",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2862075051939848,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.017888472557196788,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_508",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.19421760224215054,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01841417450695808,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_509",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.22648967983711588,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.013541681201477872,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_510",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.31412718223690705,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.013052088629688888,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_511",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.1850689565777921,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01164749795418334,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_512",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.11520531398069901,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.0010864580921326832,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_513",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.1756886492897252,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.014458346870830113,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_514",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.17745440871384632,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.007151410819077916,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_515",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.18627084328531118,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.017033990621375103,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_516",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.10417172636816381,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.0062486859666325825,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_517",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.17138658200923473,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006791131770316999,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_518",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2917322494952026,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01618299585349362,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "high_demand",
+      "scenario_id": "validation_high_demand_519",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.22322578139877147,
+      "scenario_failure_probability": 0.01,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.013363621853626377,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_500",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.21314460801537896,
+      "scenario_failure_probability": 0.03957750055615958,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_501",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2032964618933491,
+      "scenario_failure_probability": 0.022961889956311255,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_502",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.3128073833476353,
+      "scenario_failure_probability": 0.03222578534557927,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_503",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.26812691213097606,
+      "scenario_failure_probability": 0.0017223804239168473,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_504",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2587330179333047,
+      "scenario_failure_probability": 0.049013981438311836,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_505",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.15130998449940147,
+      "scenario_failure_probability": 0.04214752488248466,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_506",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.22138457603246034,
+      "scenario_failure_probability": 0.021314219886327215,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_507",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2862075051939848,
+      "scenario_failure_probability": 0.018504157951288402,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_508",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.19421760224215054,
+      "scenario_failure_probability": 0.028207437543508643,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_509",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.22648967983711588,
+      "scenario_failure_probability": 0.01546147256648317,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_510",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.31412718223690705,
+      "scenario_failure_probability": 0.027740889741614733,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_511",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.1850689565777921,
+      "scenario_failure_probability": 0.040541458885180626,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_512",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.11520531398069901,
+      "scenario_failure_probability": 0.03745197247689542,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_513",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.1756886492897252,
+      "scenario_failure_probability": 0.03858426132111462,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_514",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.17745440871384632,
+      "scenario_failure_probability": 0.042802468038333465,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_515",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.18627084328531118,
+      "scenario_failure_probability": 0.0022766131118075184,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_516",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.10417172636816381,
+      "scenario_failure_probability": 0.0431469258475111,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_517",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.17138658200923473,
+      "scenario_failure_probability": 0.006301721397225302,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_518",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2917322494952026,
+      "scenario_failure_probability": 0.04047073701673545,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "low_supply",
+      "scenario_id": "validation_low_supply_519",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.22322578139877147,
+      "scenario_failure_probability": 0.007215840395106938,
+      "source_outage_probability": 0.02,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.01,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_500",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.21314460801537896,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.011846130140290935,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_501",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2032964618933491,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.018992650812808605,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_502",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.3128073833476353,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.001777894409893148,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_503",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.26812691213097606,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.0015507542120699654,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_504",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2587330179333047,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.012692174181482212,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_505",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.15130998449940147,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.01922371693379308,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_506",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.22138457603246034,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.01610011485705638,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_507",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2862075051939848,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.017888472557196788,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_508",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.19421760224215054,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.01841417450695808,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_509",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.22648967983711588,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.013541681201477872,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_510",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.31412718223690705,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.013052088629688888,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_511",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.1850689565777921,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.01164749795418334,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_512",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.11520531398069901,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.0010864580921326832,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_513",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.1756886492897252,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.014458346870830113,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_514",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.17745440871384632,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.007151410819077916,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_515",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.18627084328531118,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.017033990621375103,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_516",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.10417172636816381,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.0062486859666325825,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_517",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.17138658200923473,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.006791131770316999,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_518",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.2917322494952026,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.01618299585349362,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "scenario_id": "validation_equipment_failure_519",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.22322578139877147,
+      "scenario_failure_probability": 0.03,
+      "source_outage_probability": 0.03,
+      "compressor_outage_probability": 0.04,
+      "scenario_leakage_rate": 0.013363621853626377,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_500",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.03957750055615958,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_501",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.022961889956311255,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_502",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.03222578534557927,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_503",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.0017223804239168473,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_504",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.049013981438311836,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_505",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.04214752488248466,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_506",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.021314219886327215,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_507",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.018504157951288402,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_508",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.028207437543508643,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_509",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.01546147256648317,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_510",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.027740889741614733,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_511",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.040541458885180626,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_512",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.03745197247689542,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_513",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.03858426132111462,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_514",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.042802468038333465,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_515",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.0022766131118075184,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_516",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.0431469258475111,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_517",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.006301721397225302,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_518",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.04047073701673545,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "scenario_id": "validation_energy_price_spike_519",
+      "reset_valid": true,
+      "step_valid": true,
+      "delivered_flow": 3150.0,
+      "scenario_energy_price": 0.25,
+      "scenario_failure_probability": 0.007215840395106938,
+      "source_outage_probability": 0.0,
+      "compressor_outage_probability": 0.0,
+      "scenario_leakage_rate": 0.006,
+      "env_energy_state": 0.0,
+      "env_price_state": 0.08
+    }
+  ],
+  "reward_component_statistics": {
+    "throughput": {
+      "mean_raw": 3242.5,
+      "normalization_bounds": [
+        0.0,
+        5200.0
+      ],
+      "mean_normalized": 0.6235576923076922,
+      "mean_weighted": 0.6235576923076922,
+      "mean_absolute_contribution_percent": 22.079871398288518
+    },
+    "energy": {
+      "mean_raw": 0.0,
+      "normalization_bounds": [
+        0.0,
+        1411200.0
+      ],
+      "mean_normalized": 0.0,
+      "mean_weighted": 0.0,
+      "mean_absolute_contribution_percent": 0.0
+    },
+    "leakage": {
+      "mean_raw": 192.31678022747226,
+      "normalization_bounds": [
+        0.0,
+        728.0
+      ],
+      "mean_normalized": 0.26417140141136286,
+      "mean_weighted": -2.6417140141136293,
+      "mean_absolute_contribution_percent": 77.92012860171148
+    },
+    "violation": {
+      "mean_raw": 0.0,
+      "normalization_bounds": [
+        0.0,
+        1.0
+      ],
+      "mean_normalized": 0.0,
+      "mean_weighted": 0.0,
+      "mean_absolute_contribution_percent": 0.0
+    }
+  },
+  "reward_weights": {
+    "throughput": 1.0,
+    "energy": 0.1,
+    "leakage": 10.0,
+    "violation": 5.0
+  },
+  "feasible_episode_count": 100,
+  "episode_count": 100,
+  "episodes": [
+    {
+      "scenario_id": "validation_normal_600",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_601",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_602",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_603",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_604",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_605",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_606",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_607",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_608",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_609",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_610",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_611",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_612",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_613",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_614",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_615",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_616",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_617",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_618",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_normal_619",
+      "scenario_type": "normal",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 113.4875,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.15588942307692308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.5588942307692308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9353365384615385,
+      "absolute_component_share_percent": {
+        "throughput": 28.57142857142857,
+        "energy": 0.0,
+        "leakage": 71.42857142857143,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005
+    },
+    {
+      "scenario_id": "validation_high_demand_600",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 321.4947217366167,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.4416136287590889,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.416136287590889,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -3.7925785952831963,
+      "absolute_component_share_percent": {
+        "throughput": 12.372927697491681,
+        "energy": 0.0,
+        "leakage": 87.62707230250832,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.014164323019566768
+    },
+    {
+      "scenario_id": "validation_high_demand_601",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 177.11966717400054,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.2432962461181326,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -2.432962461181326,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.8094047688736334,
+      "absolute_component_share_percent": {
+        "throughput": 20.400902365911154,
+        "energy": 0.0,
+        "leakage": 79.59909763408885,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.007803487924837561
+    },
+    {
+      "scenario_id": "validation_high_demand_602",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 445.77516890640084,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.6123285287175836,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -6.123285287175836,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -5.499727594868144,
+      "absolute_component_share_percent": {
+        "throughput": 9.242214383881004,
+        "energy": 0.0,
+        "leakage": 90.75778561611901,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.019639835616539304
+    },
+    {
+      "scenario_id": "validation_high_demand_603",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 312.9207729763721,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.42983622661589577,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.298362266158958,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -3.6748045738512656,
+      "absolute_component_share_percent": {
+        "throughput": 12.6689929452236,
+        "energy": 0.0,
+        "leakage": 87.3310070547764,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.0137865744234551
+    },
+    {
+      "scenario_id": "validation_high_demand_604",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 149.83537819643274,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.20581782719290212,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -2.0581782719290214,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.434620579621329,
+      "absolute_component_share_percent": {
+        "throughput": 23.252016627415138,
+        "energy": 0.0,
+        "leakage": 76.74798337258486,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006601404480512512
+    },
+    {
+      "scenario_id": "validation_high_demand_605",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 55.502155578443315,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.0762392246956639,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -0.762392246956639,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.13883455464894667,
+      "absolute_component_share_percent": {
+        "throughput": 44.99135752613689,
+        "energy": 0.0,
+        "leakage": 55.00864247386311,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.0024452981860752644
+    },
+    {
+      "scenario_id": "validation_high_demand_606",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 305.01470532260424,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.41897624357500585,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.189762435750058,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -3.566204743442366,
+      "absolute_component_share_percent": {
+        "throughput": 12.954835242992816,
+        "energy": 0.0,
+        "leakage": 87.04516475700719,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.013438251143192168
+    },
+    {
+      "scenario_id": "validation_high_demand_607",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 316.76895390713776,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.43512218943288156,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.351221894328815,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -3.727664202021123,
+      "absolute_component_share_percent": {
+        "throughput": 12.534378286481736,
+        "energy": 0.0,
+        "leakage": 87.46562171351827,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.013956116484508767
+    },
+    {
+      "scenario_id": "validation_high_demand_608",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 103.40302370375231,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.14203712047218725,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.4203712047218726,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.7968135124141803,
+      "absolute_component_share_percent": {
+        "throughput": 30.50779766428796,
+        "energy": 0.0,
+        "leakage": 69.49220233571204,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.0045557010112898914
+    },
+    {
+      "scenario_id": "validation_high_demand_609",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 433.2023799111938,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.5950582141637277,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -5.950582141637277,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -5.327024449329585,
+      "absolute_component_share_percent": {
+        "throughput": 9.4850080475625,
+        "energy": 0.0,
+        "leakage": 90.51499195243751,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01908590725459605
+    },
+    {
+      "scenario_id": "validation_high_demand_610",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 87.21623455597219,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1198025199944673,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.198025199944673,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.5744675076369806,
+      "absolute_component_share_percent": {
+        "throughput": 34.231639688747336,
+        "energy": 0.0,
+        "leakage": 65.76836031125268,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.0038425480584193057
+    },
+    {
+      "scenario_id": "validation_high_demand_611",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 260.9593778773884,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.35846068389751157,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.5846068389751156,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.961049146667423,
+      "absolute_component_share_percent": {
+        "throughput": 14.81780685313671,
+        "energy": 0.0,
+        "leakage": 85.18219314686328,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01149727405561795
+    },
+    {
+      "scenario_id": "validation_high_demand_612",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 117.22740180335488,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.16102665082878417,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.6102665082878418,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9867088159801495,
+      "absolute_component_share_percent": {
+        "throughput": 27.914358351989062,
+        "energy": 0.0,
+        "leakage": 72.08564164801093,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005164771530051983
+    },
+    {
+      "scenario_id": "validation_high_demand_613",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 345.038135363479,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.4739534826421415,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.739534826421415,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -4.115977134113723,
+      "absolute_component_share_percent": {
+        "throughput": 11.626830790818744,
+        "energy": 0.0,
+        "leakage": 88.37316920918126,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01520159204156753
+    },
+    {
+      "scenario_id": "validation_high_demand_614",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 269.0125593162742,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.3695227463135634,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.695227463135634,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -3.0716697708279415,
+      "absolute_component_share_percent": {
+        "throughput": 14.43826608327044,
+        "energy": 0.0,
+        "leakage": 85.56173391672957,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.011852078833187538
+    },
+    {
+      "scenario_id": "validation_high_demand_615",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 171.20480297549278,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.23517143265864393,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -2.351714326586439,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.7281566342787467,
+      "absolute_component_share_percent": {
+        "throughput": 20.958006136845945,
+        "energy": 0.0,
+        "leakage": 79.04199386315405,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.007542892520123043
+    },
+    {
+      "scenario_id": "validation_high_demand_616",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 108.0973767285826,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.14848540759420686,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.4848540759420685,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.8612963836343762,
+      "absolute_component_share_percent": {
+        "throughput": 29.5747586736969,
+        "energy": 0.0,
+        "leakage": 70.4252413263031,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.004762523481818817
+    },
+    {
+      "scenario_id": "validation_high_demand_617",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 353.70108221111906,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.48585313490538334,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.858531349053833,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -4.234973656746141,
+      "absolute_component_share_percent": {
+        "throughput": 11.374453928111066,
+        "energy": 0.0,
+        "leakage": 88.62554607188893,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.015583261690103274
+    },
+    {
+      "scenario_id": "validation_high_demand_618",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 444.88900387708037,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.6111112690619236,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -6.111112690619236,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -5.487554998311544,
+      "absolute_component_share_percent": {
+        "throughput": 9.258919247012805,
+        "energy": 0.0,
+        "leakage": 90.7410807529872,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.019600793209696238
+    },
+    {
+      "scenario_id": "validation_high_demand_619",
+      "scenario_type": "high_demand",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 70.98110925191328,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.09750152369768308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -0.9750152369768308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.3514575446691385,
+      "absolute_component_share_percent": {
+        "throughput": 39.0071469924603,
+        "energy": 0.0,
+        "leakage": 60.99285300753971,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.003127265524921832
+    },
+    {
+      "scenario_id": "validation_low_supply_600",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_601",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_602",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_603",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_604",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_605",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_606",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_607",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_608",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_609",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_610",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_611",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_612",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_613",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_614",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_615",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_616",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_617",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_618",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_low_supply_619",
+      "scenario_type": "low_supply",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 226.975,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.31177884615384616,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.1177884615384617,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.4942307692307693,
+      "absolute_component_share_percent": {
+        "throughput": 16.666666666666664,
+        "energy": 0.0,
+        "leakage": 83.33333333333333,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01
+    },
+    {
+      "scenario_id": "validation_equipment_failure_600",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 321.4947217366167,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.4416136287590889,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.416136287590889,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -3.7925785952831963,
+      "absolute_component_share_percent": {
+        "throughput": 12.372927697491681,
+        "energy": 0.0,
+        "leakage": 87.62707230250832,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.014164323019566768
+    },
+    {
+      "scenario_id": "validation_equipment_failure_601",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 177.11966717400054,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.2432962461181326,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -2.432962461181326,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.8094047688736334,
+      "absolute_component_share_percent": {
+        "throughput": 20.400902365911154,
+        "energy": 0.0,
+        "leakage": 79.59909763408885,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.007803487924837561
+    },
+    {
+      "scenario_id": "validation_equipment_failure_602",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 445.77516890640084,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.6123285287175836,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -6.123285287175836,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -5.499727594868144,
+      "absolute_component_share_percent": {
+        "throughput": 9.242214383881004,
+        "energy": 0.0,
+        "leakage": 90.75778561611901,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.019639835616539304
+    },
+    {
+      "scenario_id": "validation_equipment_failure_603",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 312.9207729763721,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.42983622661589577,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.298362266158958,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -3.6748045738512656,
+      "absolute_component_share_percent": {
+        "throughput": 12.6689929452236,
+        "energy": 0.0,
+        "leakage": 87.3310070547764,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.0137865744234551
+    },
+    {
+      "scenario_id": "validation_equipment_failure_604",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 149.83537819643274,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.20581782719290212,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -2.0581782719290214,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.434620579621329,
+      "absolute_component_share_percent": {
+        "throughput": 23.252016627415138,
+        "energy": 0.0,
+        "leakage": 76.74798337258486,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006601404480512512
+    },
+    {
+      "scenario_id": "validation_equipment_failure_605",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 55.502155578443315,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.0762392246956639,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -0.762392246956639,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.13883455464894667,
+      "absolute_component_share_percent": {
+        "throughput": 44.99135752613689,
+        "energy": 0.0,
+        "leakage": 55.00864247386311,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.0024452981860752644
+    },
+    {
+      "scenario_id": "validation_equipment_failure_606",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 305.01470532260424,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.41897624357500585,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.189762435750058,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -3.566204743442366,
+      "absolute_component_share_percent": {
+        "throughput": 12.954835242992816,
+        "energy": 0.0,
+        "leakage": 87.04516475700719,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.013438251143192168
+    },
+    {
+      "scenario_id": "validation_equipment_failure_607",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 316.76895390713776,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.43512218943288156,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.351221894328815,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -3.727664202021123,
+      "absolute_component_share_percent": {
+        "throughput": 12.534378286481736,
+        "energy": 0.0,
+        "leakage": 87.46562171351827,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.013956116484508767
+    },
+    {
+      "scenario_id": "validation_equipment_failure_608",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 103.40302370375231,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.14203712047218725,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.4203712047218726,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.7968135124141803,
+      "absolute_component_share_percent": {
+        "throughput": 30.50779766428796,
+        "energy": 0.0,
+        "leakage": 69.49220233571204,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.0045557010112898914
+    },
+    {
+      "scenario_id": "validation_equipment_failure_609",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 433.2023799111938,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.5950582141637277,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -5.950582141637277,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -5.327024449329585,
+      "absolute_component_share_percent": {
+        "throughput": 9.4850080475625,
+        "energy": 0.0,
+        "leakage": 90.51499195243751,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01908590725459605
+    },
+    {
+      "scenario_id": "validation_equipment_failure_610",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 87.21623455597219,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1198025199944673,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.198025199944673,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.5744675076369806,
+      "absolute_component_share_percent": {
+        "throughput": 34.231639688747336,
+        "energy": 0.0,
+        "leakage": 65.76836031125268,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.0038425480584193057
+    },
+    {
+      "scenario_id": "validation_equipment_failure_611",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 260.9593778773884,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.35846068389751157,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.5846068389751156,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -2.961049146667423,
+      "absolute_component_share_percent": {
+        "throughput": 14.81780685313671,
+        "energy": 0.0,
+        "leakage": 85.18219314686328,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01149727405561795
+    },
+    {
+      "scenario_id": "validation_equipment_failure_612",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 117.22740180335488,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.16102665082878417,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.6102665082878418,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.9867088159801495,
+      "absolute_component_share_percent": {
+        "throughput": 27.914358351989062,
+        "energy": 0.0,
+        "leakage": 72.08564164801093,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.005164771530051983
+    },
+    {
+      "scenario_id": "validation_equipment_failure_613",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 345.038135363479,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.4739534826421415,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.739534826421415,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -4.115977134113723,
+      "absolute_component_share_percent": {
+        "throughput": 11.626830790818744,
+        "energy": 0.0,
+        "leakage": 88.37316920918126,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.01520159204156753
+    },
+    {
+      "scenario_id": "validation_equipment_failure_614",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 269.0125593162742,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.3695227463135634,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -3.695227463135634,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -3.0716697708279415,
+      "absolute_component_share_percent": {
+        "throughput": 14.43826608327044,
+        "energy": 0.0,
+        "leakage": 85.56173391672957,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.011852078833187538
+    },
+    {
+      "scenario_id": "validation_equipment_failure_615",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 171.20480297549278,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.23517143265864393,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -2.351714326586439,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.7281566342787467,
+      "absolute_component_share_percent": {
+        "throughput": 20.958006136845945,
+        "energy": 0.0,
+        "leakage": 79.04199386315405,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.007542892520123043
+    },
+    {
+      "scenario_id": "validation_equipment_failure_616",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 108.0973767285826,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.14848540759420686,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.4848540759420685,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.8612963836343762,
+      "absolute_component_share_percent": {
+        "throughput": 29.5747586736969,
+        "energy": 0.0,
+        "leakage": 70.4252413263031,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.004762523481818817
+    },
+    {
+      "scenario_id": "validation_equipment_failure_617",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 353.70108221111906,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.48585313490538334,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -4.858531349053833,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -4.234973656746141,
+      "absolute_component_share_percent": {
+        "throughput": 11.374453928111066,
+        "energy": 0.0,
+        "leakage": 88.62554607188893,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.015583261690103274
+    },
+    {
+      "scenario_id": "validation_equipment_failure_618",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 444.88900387708037,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.6111112690619236,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -6.111112690619236,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -5.487554998311544,
+      "absolute_component_share_percent": {
+        "throughput": 9.258919247012805,
+        "energy": 0.0,
+        "leakage": 90.7410807529872,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.019600793209696238
+    },
+    {
+      "scenario_id": "validation_equipment_failure_619",
+      "scenario_type": "equipment_failure",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 70.98110925191328,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.09750152369768308,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -0.9750152369768308,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -0.3514575446691385,
+      "absolute_component_share_percent": {
+        "throughput": 39.0071469924603,
+        "energy": 0.0,
+        "leakage": 60.99285300753971,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.003127265524921832
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_600",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_601",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_602",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_603",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_604",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_605",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_606",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_607",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_608",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_609",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_610",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_611",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_612",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_613",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_614",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_615",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_616",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_617",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_618",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    },
+    {
+      "scenario_id": "validation_energy_price_spike_619",
+      "scenario_type": "energy_price_spike",
+      "reset_valid": true,
+      "invalid_steps": 0,
+      "raw_metrics": {
+        "throughput_tonnes_per_day": 3242.5,
+        "energy_cost_usd_per_episode_reported_by_environment": 0.0,
+        "leakage_tonnes_per_episode_derived_proxy_not_environment_output": 136.185,
+        "violation_step_fraction": 0.0
+      },
+      "normalization_bounds": {
+        "throughput": [
+          0.0,
+          5200.0
+        ],
+        "energy": [
+          0.0,
+          1411200.0
+        ],
+        "leakage": [
+          0.0,
+          728.0
+        ],
+        "violation": [
+          0.0,
+          1.0
+        ]
+      },
+      "normalized": {
+        "throughput": 0.6235576923076923,
+        "energy": 0.0,
+        "leakage": 0.1870673076923077,
+        "violation": 0.0
+      },
+      "weighted": {
+        "throughput": 0.6235576923076923,
+        "energy": -0.0,
+        "leakage": -1.870673076923077,
+        "violation": -0.0
+      },
+      "total_weighted_reward": -1.2471153846153848,
+      "absolute_component_share_percent": {
+        "throughput": 25.0,
+        "energy": 0.0,
+        "leakage": 75.0,
+        "violation": 0.0
+      },
+      "scenario_leakage_rate": 0.006
+    }
+  ],
+  "demand_shortfall_screen": {
+    "interpretation": "Each sampled scalar source_capacity is treated as per-source and sink_injection_rate as per-sink, matching the prior validation audit's expansion assumption; scenario generator does not explicitly define this mapping.",
+    "normal_rate": 0.642,
+    "configured_nominal_aggregate_source_capacity_tonnes_per_day": 6300.0,
+    "configured_nominal_aggregate_sink_capacity_tonnes_per_day": 5200.0,
+    "nominal_configured_capacity_screen_feasible": true
+  },
+  "active_environment_reward": "CO2TransportEnv.step returns 0.1 * delivered_flow when valid; it does not call compute_reward.",
+  "compute_reward_default_bounds": {
+    "throughput": [
+      0.0,
+      1.0
+    ],
+    "energy": [
+      0.0,
+      1.0
+    ],
+    "leakage": [
+      0.0,
+      1.0
+    ],
+    "violation": [
+      0.0,
+      1.0
+    ]
+  },
+  "violation_detector_probe": {
+    "action_projection_bounds": {
+      "source": [
+        0.0,
+        1.0
+      ],
+      "compressor": [
+        0.75,
+        1.25
+      ]
+    },
+    "pressure_limits_still_checked": true,
+    "pressure_state_dynamics_present": false,
+    "capacity_check_is_effectively_bypassed_by_projection_and_clipping": true
+  }
+}

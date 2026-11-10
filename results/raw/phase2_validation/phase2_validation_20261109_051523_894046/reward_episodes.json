@@ -1,0 +1,437 @@
+[
+  {
+    "scenario_type": "normal",
+    "episode_index": 0,
+    "raw": {
+      "throughput": 0.6,
+      "energy": 0.12,
+      "leakage": 0.08,
+      "violation": 0.04
+    },
+    "normalized": {
+      "throughput": 0.6,
+      "energy": 0.12,
+      "leakage": 0.08,
+      "violation": 0.04
+    },
+    "component_contributions": {
+      "throughput": 0.6,
+      "energy": -0.012,
+      "leakage": -0.8,
+      "violation": -0.2
+    },
+    "total_reward": -0.4120000000000001,
+    "contribution_share": {
+      "throughput": 0.37220843672456577,
+      "energy": 0.007444168734491316,
+      "leakage": 0.4962779156327544,
+      "violation": 0.1240694789081886
+    }
+  },
+  {
+    "scenario_type": "normal",
+    "episode_index": 1,
+    "raw": {
+      "throughput": 0.75,
+      "energy": 0.16,
+      "leakage": 0.11,
+      "violation": 0.06
+    },
+    "normalized": {
+      "throughput": 0.75,
+      "energy": 0.16,
+      "leakage": 0.11,
+      "violation": 0.06
+    },
+    "component_contributions": {
+      "throughput": 0.75,
+      "energy": -0.016,
+      "leakage": -1.1,
+      "violation": -0.3
+    },
+    "total_reward": -0.6660000000000001,
+    "contribution_share": {
+      "throughput": 0.3462603878116344,
+      "energy": 0.007386888273314867,
+      "leakage": 0.5078485687903971,
+      "violation": 0.13850415512465375
+    }
+  },
+  {
+    "scenario_type": "normal",
+    "episode_index": 2,
+    "raw": {
+      "throughput": 0.8999999999999999,
+      "energy": 0.2,
+      "leakage": 0.14,
+      "violation": 0.08
+    },
+    "normalized": {
+      "throughput": 0.8999999999999999,
+      "energy": 0.2,
+      "leakage": 0.14,
+      "violation": 0.08
+    },
+    "component_contributions": {
+      "throughput": 0.8999999999999999,
+      "energy": -0.020000000000000004,
+      "leakage": -1.4000000000000001,
+      "violation": -0.4
+    },
+    "total_reward": -0.9200000000000003,
+    "contribution_share": {
+      "throughput": 0.3308823529411764,
+      "energy": 0.007352941176470589,
+      "leakage": 0.5147058823529412,
+      "violation": 0.14705882352941177
+    }
+  },
+  {
+    "scenario_type": "high_demand",
+    "episode_index": 0,
+    "raw": {
+      "throughput": 0.6,
+      "energy": 0.12,
+      "leakage": 0.08,
+      "violation": 0.04
+    },
+    "normalized": {
+      "throughput": 0.6,
+      "energy": 0.12,
+      "leakage": 0.08,
+      "violation": 0.04
+    },
+    "component_contributions": {
+      "throughput": 0.6,
+      "energy": -0.012,
+      "leakage": -0.8,
+      "violation": -0.2
+    },
+    "total_reward": -0.4120000000000001,
+    "contribution_share": {
+      "throughput": 0.37220843672456577,
+      "energy": 0.007444168734491316,
+      "leakage": 0.4962779156327544,
+      "violation": 0.1240694789081886
+    }
+  },
+  {
+    "scenario_type": "high_demand",
+    "episode_index": 1,
+    "raw": {
+      "throughput": 0.75,
+      "energy": 0.16,
+      "leakage": 0.11,
+      "violation": 0.06
+    },
+    "normalized": {
+      "throughput": 0.75,
+      "energy": 0.16,
+      "leakage": 0.11,
+      "violation": 0.06
+    },
+    "component_contributions": {
+      "throughput": 0.75,
+      "energy": -0.016,
+      "leakage": -1.1,
+      "violation": -0.3
+    },
+    "total_reward": -0.6660000000000001,
+    "contribution_share": {
+      "throughput": 0.3462603878116344,
+      "energy": 0.007386888273314867,
+      "leakage": 0.5078485687903971,
+      "violation": 0.13850415512465375
+    }
+  },
+  {
+    "scenario_type": "high_demand",
+    "episode_index": 2,
+    "raw": {
+      "throughput": 0.8999999999999999,
+      "energy": 0.2,
+      "leakage": 0.14,
+      "violation": 0.08
+    },
+    "normalized": {
+      "throughput": 0.8999999999999999,
+      "energy": 0.2,
+      "leakage": 0.14,
+      "violation": 0.08
+    },
+    "component_contributions": {
+      "throughput": 0.8999999999999999,
+      "energy": -0.020000000000000004,
+      "leakage": -1.4000000000000001,
+      "violation": -0.4
+    },
+    "total_reward": -0.9200000000000003,
+    "contribution_share": {
+      "throughput": 0.3308823529411764,
+      "energy": 0.007352941176470589,
+      "leakage": 0.5147058823529412,
+      "violation": 0.14705882352941177
+    }
+  },
+  {
+    "scenario_type": "low_supply",
+    "episode_index": 0,
+    "raw": {
+      "throughput": 0.6,
+      "energy": 0.12,
+      "leakage": 0.08,
+      "violation": 0.04
+    },
+    "normalized": {
+      "throughput": 0.6,
+      "energy": 0.12,
+      "leakage": 0.08,
+      "violation": 0.04
+    },
+    "component_contributions": {
+      "throughput": 0.6,
+      "energy": -0.012,
+      "leakage": -0.8,
+      "violation": -0.2
+    },
+    "total_reward": -0.4120000000000001,
+    "contribution_share": {
+      "throughput": 0.37220843672456577,
+      "energy": 0.007444168734491316,
+      "leakage": 0.4962779156327544,
+      "violation": 0.1240694789081886
+    }
+  },
+  {
+    "scenario_type": "low_supply",
+    "episode_index": 1,
+    "raw": {
+      "throughput": 0.75,
+      "energy": 0.16,
+      "leakage": 0.11,
+      "violation": 0.06
+    },
+    "normalized": {
+      "throughput": 0.75,
+      "energy": 0.16,
+      "leakage": 0.11,
+      "violation": 0.06
+    },
+    "component_contributions": {
+      "throughput": 0.75,
+      "energy": -0.016,
+      "leakage": -1.1,
+      "violation": -0.3
+    },
+    "total_reward": -0.6660000000000001,
+    "contribution_share": {
+      "throughput": 0.3462603878116344,
+      "energy": 0.007386888273314867,
+      "leakage": 0.5078485687903971,
+      "violation": 0.13850415512465375
+    }
+  },
+  {
+    "scenario_type": "low_supply",
+    "episode_index": 2,
+    "raw": {
+      "throughput": 0.8999999999999999,
+      "energy": 0.2,
+      "leakage": 0.14,
+      "violation": 0.08
+    },
+    "normalized": {
+      "throughput": 0.8999999999999999,
+      "energy": 0.2,
+      "leakage": 0.14,
+      "violation": 0.08
+    },
+    "component_contributions": {
+      "throughput": 0.8999999999999999,
+      "energy": -0.020000000000000004,
+      "leakage": -1.4000000000000001,
+      "violation": -0.4
+    },
+    "total_reward": -0.9200000000000003,
+    "contribution_share": {
+      "throughput": 0.3308823529411764,
+      "energy": 0.007352941176470589,
+      "leakage": 0.5147058823529412,
+      "violation": 0.14705882352941177
+    }
+  },
+  {
+    "scenario_type": "equipment_failure",
+    "episode_index": 0,
+    "raw": {
+      "throughput": 0.6,
+      "energy": 0.12,
+      "leakage": 0.08,
+      "violation": 0.04
+    },
+    "normalized": {
+      "throughput": 0.6,
+      "energy": 0.12,
+      "leakage": 0.08,
+      "violation": 0.04
+    },
+    "component_contributions": {
+      "throughput": 0.6,
+      "energy": -0.012,
+      "leakage": -0.8,
+      "violation": -0.2
+    },
+    "total_reward": -0.4120000000000001,
+    "contribution_share": {
+      "throughput": 0.37220843672456577,
+      "energy": 0.007444168734491316,
+      "leakage": 0.4962779156327544,
+      "violation": 0.1240694789081886
+    }
+  },
+  {
+    "scenario_type": "equipment_failure",
+    "episode_index": 1,
+    "raw": {
+      "throughput": 0.75,
+      "energy": 0.16,
+      "leakage": 0.11,
+      "violation": 0.06
+    },
+    "normalized": {
+      "throughput": 0.75,
+      "energy": 0.16,
+      "leakage": 0.11,
+      "violation": 0.06
+    },
+    "component_contributions": {
+      "throughput": 0.75,
+      "energy": -0.016,
+      "leakage": -1.1,
+      "violation": -0.3
+    },
+    "total_reward": -0.6660000000000001,
+    "contribution_share": {
+      "throughput": 0.3462603878116344,
+      "energy": 0.007386888273314867,
+      "leakage": 0.5078485687903971,
+      "violation": 0.13850415512465375
+    }
+  },
+  {
+    "scenario_type": "equipment_failure",
+    "episode_index": 2,
+    "raw": {
+      "throughput": 0.8999999999999999,
+      "energy": 0.2,
+      "leakage": 0.14,
+      "violation": 0.08
+    },
+    "normalized": {
+      "throughput": 0.8999999999999999,
+      "energy": 0.2,
+      "leakage": 0.14,
+      "violation": 0.08
+    },
+    "component_contributions": {
+      "throughput": 0.8999999999999999,
+      "energy": -0.020000000000000004,
+      "leakage": -1.4000000000000001,
+      "violation": -0.4
+    },
+    "total_reward": -0.9200000000000003,
+    "contribution_share": {
+      "throughput": 0.3308823529411764,
+      "energy": 0.007352941176470589,
+      "leakage": 0.5147058823529412,
+      "violation": 0.14705882352941177
+    }
+  },
+  {
+    "scenario_type": "energy_price_spike",
+    "episode_index": 0,
+    "raw": {
+      "throughput": 0.6,
+      "energy": 0.12,
+      "leakage": 0.08,
+      "violation": 0.04
+    },
+    "normalized": {
+      "throughput": 0.6,
+      "energy": 0.12,
+      "leakage": 0.08,
+      "violation": 0.04
+    },
+    "component_contributions": {
+      "throughput": 0.6,
+      "energy": -0.012,
+      "leakage": -0.8,
+      "violation": -0.2
+    },
+    "total_reward": -0.4120000000000001,
+    "contribution_share": {
+      "throughput": 0.37220843672456577,
+      "energy": 0.007444168734491316,
+      "leakage": 0.4962779156327544,
+      "violation": 0.1240694789081886
+    }
+  },
+  {
+    "scenario_type": "energy_price_spike",
+    "episode_index": 1,
+    "raw": {
+      "throughput": 0.75,
+      "energy": 0.16,
+      "leakage": 0.11,
+      "violation": 0.06
+    },
+    "normalized": {
+      "throughput": 0.75,
+      "energy": 0.16,
+      "leakage": 0.11,
+      "violation": 0.06
+    },
+    "component_contributions": {
+      "throughput": 0.75,
+      "energy": -0.016,
+      "leakage": -1.1,
+      "violation": -0.3
+    },
+    "total_reward": -0.6660000000000001,
+    "contribution_share": {
+      "throughput": 0.3462603878116344,
+      "energy": 0.007386888273314867,
+      "leakage": 0.5078485687903971,
+      "violation": 0.13850415512465375
+    }
+  },
+  {
+    "scenario_type": "energy_price_spike",
+    "episode_index": 2,
+    "raw": {
+      "throughput": 0.8999999999999999,
+      "energy": 0.2,
+      "leakage": 0.14,
+      "violation": 0.08
+    },
+    "normalized": {
+      "throughput": 0.8999999999999999,
+      "energy": 0.2,
+      "leakage": 0.14,
+      "violation": 0.08
+    },
+    "component_contributions": {
+      "throughput": 0.8999999999999999,
+      "energy": -0.020000000000000004,
+      "leakage": -1.4000000000000001,
+      "violation": -0.4
+    },
+    "total_reward": -0.9200000000000003,
+    "contribution_share": {
+      "throughput": 0.3308823529411764,
+      "energy": 0.007352941176470589,
+      "leakage": 0.5147058823529412,
+      "violation": 0.14705882352941177
+    }
+  }
+]

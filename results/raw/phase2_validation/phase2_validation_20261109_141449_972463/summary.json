@@ -1,0 +1,1157 @@
+{
+  "generated_at": "2026-11-09T05:14:50.124460Z",
+  "scenario_types": [
+    "normal",
+    "high_demand",
+    "low_supply",
+    "equipment_failure",
+    "energy_price_spike"
+  ],
+  "sample_scenario_count": 15,
+  "range_violations": [
+    {
+      "scenario_id": "train_high_demand_10",
+      "scenario_type": "high_demand",
+      "parameter": "demand_multiplier",
+      "value": 1.5,
+      "lower": 0.8,
+      "upper": 1.2
+    },
+    {
+      "scenario_id": "train_high_demand_21",
+      "scenario_type": "high_demand",
+      "parameter": "sink_injection_rate",
+      "value": 10811.85347693716,
+      "lower": 1000.0,
+      "upper": 10000.0
+    },
+    {
+      "scenario_id": "train_high_demand_21",
+      "scenario_type": "high_demand",
+      "parameter": "demand_multiplier",
+      "value": 1.5,
+      "lower": 0.8,
+      "upper": 1.2
+    },
+    {
+      "scenario_id": "train_high_demand_33",
+      "scenario_type": "high_demand",
+      "parameter": "sink_injection_rate",
+      "value": 10035.14544031351,
+      "lower": 1000.0,
+      "upper": 10000.0
+    },
+    {
+      "scenario_id": "train_high_demand_33",
+      "scenario_type": "high_demand",
+      "parameter": "demand_multiplier",
+      "value": 1.5,
+      "lower": 0.8,
+      "upper": 1.2
+    },
+    {
+      "scenario_id": "train_low_supply_10",
+      "scenario_type": "low_supply",
+      "parameter": "supply_multiplier",
+      "value": 0.7,
+      "lower": 0.8,
+      "upper": 1.2
+    },
+    {
+      "scenario_id": "train_low_supply_21",
+      "scenario_type": "low_supply",
+      "parameter": "supply_multiplier",
+      "value": 0.7,
+      "lower": 0.8,
+      "upper": 1.2
+    },
+    {
+      "scenario_id": "train_low_supply_33",
+      "scenario_type": "low_supply",
+      "parameter": "supply_multiplier",
+      "value": 0.7,
+      "lower": 0.8,
+      "upper": 1.2
+    }
+  ],
+  "split_overlap": {
+    "train_val": [],
+    "train_test": [],
+    "val_test": [],
+    "ood_vs_train_val_test": []
+  },
+  "feasibility_checks": [
+    {
+      "scenario_id": "train_normal_10",
+      "scenario_type": "normal",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_normal_21",
+      "scenario_type": "normal",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_normal_33",
+      "scenario_type": "normal",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_high_demand_10",
+      "scenario_type": "high_demand",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_high_demand_21",
+      "scenario_type": "high_demand",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_high_demand_33",
+      "scenario_type": "high_demand",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_low_supply_10",
+      "scenario_type": "low_supply",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_low_supply_21",
+      "scenario_type": "low_supply",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_low_supply_33",
+      "scenario_type": "low_supply",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_equipment_failure_10",
+      "scenario_type": "equipment_failure",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_equipment_failure_21",
+      "scenario_type": "equipment_failure",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_equipment_failure_33",
+      "scenario_type": "equipment_failure",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_energy_price_spike_10",
+      "scenario_type": "energy_price_spike",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_energy_price_spike_21",
+      "scenario_type": "energy_price_spike",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    },
+    {
+      "scenario_id": "train_energy_price_spike_33",
+      "scenario_type": "energy_price_spike",
+      "valid": false,
+      "pressure_before_step": [
+        18000000.0,
+        16000000.0,
+        20000000.0,
+        12000000.0,
+        11000000.0,
+        0.0,
+        0.0
+      ],
+      "constraint_check": {
+        "source": [],
+        "sink": [],
+        "pressure": [
+          "pressure_5_below_min",
+          "pressure_6_below_min"
+        ]
+      },
+      "reward": 0.0
+    }
+  ],
+  "infeasible_feasibility_rate": 1.0,
+  "stress_test": {
+    "total": 500,
+    "invalid": 500,
+    "invalid_rate": 1.0,
+    "details": [
+      {
+        "scenario_id": "train_normal_7000",
+        "scenario_type": "normal",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_high_demand_7001",
+        "scenario_type": "high_demand",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_low_supply_7002",
+        "scenario_type": "low_supply",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_equipment_failure_7003",
+        "scenario_type": "equipment_failure",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_energy_price_spike_7004",
+        "scenario_type": "energy_price_spike",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_normal_7005",
+        "scenario_type": "normal",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_high_demand_7006",
+        "scenario_type": "high_demand",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_low_supply_7007",
+        "scenario_type": "low_supply",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_equipment_failure_7008",
+        "scenario_type": "equipment_failure",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_energy_price_spike_7009",
+        "scenario_type": "energy_price_spike",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_normal_7010",
+        "scenario_type": "normal",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_high_demand_7011",
+        "scenario_type": "high_demand",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_low_supply_7012",
+        "scenario_type": "low_supply",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_equipment_failure_7013",
+        "scenario_type": "equipment_failure",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_energy_price_spike_7014",
+        "scenario_type": "energy_price_spike",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_normal_7015",
+        "scenario_type": "normal",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_high_demand_7016",
+        "scenario_type": "high_demand",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_low_supply_7017",
+        "scenario_type": "low_supply",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_equipment_failure_7018",
+        "scenario_type": "equipment_failure",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      },
+      {
+        "scenario_id": "train_energy_price_spike_7019",
+        "scenario_type": "energy_price_spike",
+        "valid": false,
+        "reasons": {
+          "source": [],
+          "sink": [],
+          "pressure": [
+            "pressure_5_below_min",
+            "pressure_6_below_min"
+          ]
+        }
+      }
+    ]
+  },
+  "reward_episodes": [
+    {
+      "scenario_type": "normal",
+      "episode_index": 0,
+      "raw": {
+        "throughput": 0.6,
+        "energy": 0.12,
+        "leakage": 0.08,
+        "violation": 0.04
+      },
+      "normalized": {
+        "throughput": 0.6,
+        "energy": 0.12,
+        "leakage": 0.08,
+        "violation": 0.04
+      },
+      "component_contributions": {
+        "throughput": 0.6,
+        "energy": -0.012,
+        "leakage": -0.8,
+        "violation": -0.2
+      },
+      "total_reward": -0.4120000000000001,
+      "contribution_share": {
+        "throughput": 0.37220843672456577,
+        "energy": 0.007444168734491316,
+        "leakage": 0.4962779156327544,
+        "violation": 0.1240694789081886
+      }
+    },
+    {
+      "scenario_type": "normal",
+      "episode_index": 1,
+      "raw": {
+        "throughput": 0.75,
+        "energy": 0.16,
+        "leakage": 0.11,
+        "violation": 0.06
+      },
+      "normalized": {
+        "throughput": 0.75,
+        "energy": 0.16,
+        "leakage": 0.11,
+        "violation": 0.06
+      },
+      "component_contributions": {
+        "throughput": 0.75,
+        "energy": -0.016,
+        "leakage": -1.1,
+        "violation": -0.3
+      },
+      "total_reward": -0.6660000000000001,
+      "contribution_share": {
+        "throughput": 0.3462603878116344,
+        "energy": 0.007386888273314867,
+        "leakage": 0.5078485687903971,
+        "violation": 0.13850415512465375
+      }
+    },
+    {
+      "scenario_type": "normal",
+      "episode_index": 2,
+      "raw": {
+        "throughput": 0.8999999999999999,
+        "energy": 0.2,
+        "leakage": 0.14,
+        "violation": 0.08
+      },
+      "normalized": {
+        "throughput": 0.8999999999999999,
+        "energy": 0.2,
+        "leakage": 0.14,
+        "violation": 0.08
+      },
+      "component_contributions": {
+        "throughput": 0.8999999999999999,
+        "energy": -0.020000000000000004,
+        "leakage": -1.4000000000000001,
+        "violation": -0.4
+      },
+      "total_reward": -0.9200000000000003,
+      "contribution_share": {
+        "throughput": 0.3308823529411764,
+        "energy": 0.007352941176470589,
+        "leakage": 0.5147058823529412,
+        "violation": 0.14705882352941177
+      }
+    },
+    {
+      "scenario_type": "high_demand",
+      "episode_index": 0,
+      "raw": {
+        "throughput": 0.6,
+        "energy": 0.12,
+        "leakage": 0.08,
+        "violation": 0.04
+      },
+      "normalized": {
+        "throughput": 0.6,
+        "energy": 0.12,
+        "leakage": 0.08,
+        "violation": 0.04
+      },
+      "component_contributions": {
+        "throughput": 0.6,
+        "energy": -0.012,
+        "leakage": -0.8,
+        "violation": -0.2
+      },
+      "total_reward": -0.4120000000000001,
+      "contribution_share": {
+        "throughput": 0.37220843672456577,
+        "energy": 0.007444168734491316,
+        "leakage": 0.4962779156327544,
+        "violation": 0.1240694789081886
+      }
+    },
+    {
+      "scenario_type": "high_demand",
+      "episode_index": 1,
+      "raw": {
+        "throughput": 0.75,
+        "energy": 0.16,
+        "leakage": 0.11,
+        "violation": 0.06
+      },
+      "normalized": {
+        "throughput": 0.75,
+        "energy": 0.16,
+        "leakage": 0.11,
+        "violation": 0.06
+      },
+      "component_contributions": {
+        "throughput": 0.75,
+        "energy": -0.016,
+        "leakage": -1.1,
+        "violation": -0.3
+      },
+      "total_reward": -0.6660000000000001,
+      "contribution_share": {
+        "throughput": 0.3462603878116344,
+        "energy": 0.007386888273314867,
+        "leakage": 0.5078485687903971,
+        "violation": 0.13850415512465375
+      }
+    },
+    {
+      "scenario_type": "high_demand",
+      "episode_index": 2,
+      "raw": {
+        "throughput": 0.8999999999999999,
+        "energy": 0.2,
+        "leakage": 0.14,
+        "violation": 0.08
+      },
+      "normalized": {
+        "throughput": 0.8999999999999999,
+        "energy": 0.2,
+        "leakage": 0.14,
+        "violation": 0.08
+      },
+      "component_contributions": {
+        "throughput": 0.8999999999999999,
+        "energy": -0.020000000000000004,
+        "leakage": -1.4000000000000001,
+        "violation": -0.4
+      },
+      "total_reward": -0.9200000000000003,
+      "contribution_share": {
+        "throughput": 0.3308823529411764,
+        "energy": 0.007352941176470589,
+        "leakage": 0.5147058823529412,
+        "violation": 0.14705882352941177
+      }
+    },
+    {
+      "scenario_type": "low_supply",
+      "episode_index": 0,
+      "raw": {
+        "throughput": 0.6,
+        "energy": 0.12,
+        "leakage": 0.08,
+        "violation": 0.04
+      },
+      "normalized": {
+        "throughput": 0.6,
+        "energy": 0.12,
+        "leakage": 0.08,
+        "violation": 0.04
+      },
+      "component_contributions": {
+        "throughput": 0.6,
+        "energy": -0.012,
+        "leakage": -0.8,
+        "violation": -0.2
+      },
+      "total_reward": -0.4120000000000001,
+      "contribution_share": {
+        "throughput": 0.37220843672456577,
+        "energy": 0.007444168734491316,
+        "leakage": 0.4962779156327544,
+        "violation": 0.1240694789081886
+      }
+    },
+    {
+      "scenario_type": "low_supply",
+      "episode_index": 1,
+      "raw": {
+        "throughput": 0.75,
+        "energy": 0.16,
+        "leakage": 0.11,
+        "violation": 0.06
+      },
+      "normalized": {
+        "throughput": 0.75,
+        "energy": 0.16,
+        "leakage": 0.11,
+        "violation": 0.06
+      },
+      "component_contributions": {
+        "throughput": 0.75,
+        "energy": -0.016,
+        "leakage": -1.1,
+        "violation": -0.3
+      },
+      "total_reward": -0.6660000000000001,
+      "contribution_share": {
+        "throughput": 0.3462603878116344,
+        "energy": 0.007386888273314867,
+        "leakage": 0.5078485687903971,
+        "violation": 0.13850415512465375
+      }
+    },
+    {
+      "scenario_type": "low_supply",
+      "episode_index": 2,
+      "raw": {
+        "throughput": 0.8999999999999999,
+        "energy": 0.2,
+        "leakage": 0.14,
+        "violation": 0.08
+      },
+      "normalized": {
+        "throughput": 0.8999999999999999,
+        "energy": 0.2,
+        "leakage": 0.14,
+        "violation": 0.08
+      },
+      "component_contributions": {
+        "throughput": 0.8999999999999999,
+        "energy": -0.020000000000000004,
+        "leakage": -1.4000000000000001,
+        "violation": -0.4
+      },
+      "total_reward": -0.9200000000000003,
+      "contribution_share": {
+        "throughput": 0.3308823529411764,
+        "energy": 0.007352941176470589,
+        "leakage": 0.5147058823529412,
+        "violation": 0.14705882352941177
+      }
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "episode_index": 0,
+      "raw": {
+        "throughput": 0.6,
+        "energy": 0.12,
+        "leakage": 0.08,
+        "violation": 0.04
+      },
+      "normalized": {
+        "throughput": 0.6,
+        "energy": 0.12,
+        "leakage": 0.08,
+        "violation": 0.04
+      },
+      "component_contributions": {
+        "throughput": 0.6,
+        "energy": -0.012,
+        "leakage": -0.8,
+        "violation": -0.2
+      },
+      "total_reward": -0.4120000000000001,
+      "contribution_share": {
+        "throughput": 0.37220843672456577,
+        "energy": 0.007444168734491316,
+        "leakage": 0.4962779156327544,
+        "violation": 0.1240694789081886
+      }
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "episode_index": 1,
+      "raw": {
+        "throughput": 0.75,
+        "energy": 0.16,
+        "leakage": 0.11,
+        "violation": 0.06
+      },
+      "normalized": {
+        "throughput": 0.75,
+        "energy": 0.16,
+        "leakage": 0.11,
+        "violation": 0.06
+      },
+      "component_contributions": {
+        "throughput": 0.75,
+        "energy": -0.016,
+        "leakage": -1.1,
+        "violation": -0.3
+      },
+      "total_reward": -0.6660000000000001,
+      "contribution_share": {
+        "throughput": 0.3462603878116344,
+        "energy": 0.007386888273314867,
+        "leakage": 0.5078485687903971,
+        "violation": 0.13850415512465375
+      }
+    },
+    {
+      "scenario_type": "equipment_failure",
+      "episode_index": 2,
+      "raw": {
+        "throughput": 0.8999999999999999,
+        "energy": 0.2,
+        "leakage": 0.14,
+        "violation": 0.08
+      },
+      "normalized": {
+        "throughput": 0.8999999999999999,
+        "energy": 0.2,
+        "leakage": 0.14,
+        "violation": 0.08
+      },
+      "component_contributions": {
+        "throughput": 0.8999999999999999,
+        "energy": -0.020000000000000004,
+        "leakage": -1.4000000000000001,
+        "violation": -0.4
+      },
+      "total_reward": -0.9200000000000003,
+      "contribution_share": {
+        "throughput": 0.3308823529411764,
+        "energy": 0.007352941176470589,
+        "leakage": 0.5147058823529412,
+        "violation": 0.14705882352941177
+      }
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "episode_index": 0,
+      "raw": {
+        "throughput": 0.6,
+        "energy": 0.12,
+        "leakage": 0.08,
+        "violation": 0.04
+      },
+      "normalized": {
+        "throughput": 0.6,
+        "energy": 0.12,
+        "leakage": 0.08,
+        "violation": 0.04
+      },
+      "component_contributions": {
+        "throughput": 0.6,
+        "energy": -0.012,
+        "leakage": -0.8,
+        "violation": -0.2
+      },
+      "total_reward": -0.4120000000000001,
+      "contribution_share": {
+        "throughput": 0.37220843672456577,
+        "energy": 0.007444168734491316,
+        "leakage": 0.4962779156327544,
+        "violation": 0.1240694789081886
+      }
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "episode_index": 1,
+      "raw": {
+        "throughput": 0.75,
+        "energy": 0.16,
+        "leakage": 0.11,
+        "violation": 0.06
+      },
+      "normalized": {
+        "throughput": 0.75,
+        "energy": 0.16,
+        "leakage": 0.11,
+        "violation": 0.06
+      },
+      "component_contributions": {
+        "throughput": 0.75,
+        "energy": -0.016,
+        "leakage": -1.1,
+        "violation": -0.3
+      },
+      "total_reward": -0.6660000000000001,
+      "contribution_share": {
+        "throughput": 0.3462603878116344,
+        "energy": 0.007386888273314867,
+        "leakage": 0.5078485687903971,
+        "violation": 0.13850415512465375
+      }
+    },
+    {
+      "scenario_type": "energy_price_spike",
+      "episode_index": 2,
+      "raw": {
+        "throughput": 0.8999999999999999,
+        "energy": 0.2,
+        "leakage": 0.14,
+        "violation": 0.08
+      },
+      "normalized": {
+        "throughput": 0.8999999999999999,
+        "energy": 0.2,
+        "leakage": 0.14,
+        "violation": 0.08
+      },
+      "component_contributions": {
+        "throughput": 0.8999999999999999,
+        "energy": -0.020000000000000004,
+        "leakage": -1.4000000000000001,
+        "violation": -0.4
+      },
+      "total_reward": -0.9200000000000003,
+      "contribution_share": {
+        "throughput": 0.3308823529411764,
+        "energy": 0.007352941176470589,
+        "leakage": 0.5147058823529412,
+        "violation": 0.14705882352941177
+      }
+    }
+  ],
+  "component_summary": {
+    "throughput": {
+      "mean_abs_share": 0.34978372582579215,
+      "max_share": 0.37220843672456577,
+      "min_share": 0.3308823529411764
+    },
+    "energy": {
+      "mean_abs_share": 0.007394666061425591,
+      "max_share": 0.007444168734491316,
+      "min_share": 0.007352941176470589
+    },
+    "leakage": {
+      "mean_abs_share": 0.506277455592031,
+      "max_share": 0.5147058823529412,
+      "min_share": 0.4962779156327544
+    },
+    "violation": {
+      "mean_abs_share": 0.13654415252075136,
+      "max_share": 0.14705882352941177,
+      "min_share": 0.1240694789081886
+    }
+  }
+}

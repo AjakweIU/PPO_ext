@@ -1,0 +1,71 @@
+network:
+  sources: 3
+  sinks: 2
+  pipeline_segments: 5
+  compressors: 2
+
+scenario_types:
+  - normal
+  - high_demand
+  - low_supply
+  - equipment_failure
+  - energy_price_spike
+
+randomization:
+  source_capacity:
+    min: 500.0
+    max: 5000.0
+  sink_injection_rate:
+    min: 1000.0
+    max: 10000.0
+  pipeline_length_km:
+    min: 10.0
+    max: 100.0
+  pipeline_diameter_m:
+    min: 0.3
+    max: 0.8
+  compressor_power_kw:
+    min: 3000.0
+    max: 8000.0
+  compressor_efficiency:
+    min: 0.75
+    max: 0.88
+  base_energy_price:
+    min: 0.05
+    max: 0.12
+  peak_price_multiplier:
+    min: 1.5
+    max: 3.0
+  leakage_rate:
+    min: 0.001
+    max: 0.02
+  failure_probability:
+    min: 0.0
+    max: 0.05
+  demand_multiplier:
+    min: 0.8
+    max: 1.2
+  supply_multiplier:
+    min: 0.8
+    max: 1.2
+
+non_overlapping_splits:
+  train_seed: 42
+  validation_seed: 123
+  test_seed: 456
+  train_fraction: 0.7
+  validation_fraction: 0.15
+  test_fraction: 0.15
+
+ood:
+  generation: separate
+  policy: held_out_and_extreme
+  scenarios:
+    - high_demand
+    - low_supply
+    - equipment_failure
+    - energy_price_spike
+  demand_multiplier_max: 2.5
+  supply_multiplier_min: 0.35
+  failure_probability_max: 0.07
+  peak_price_multiplier_max: 3.5

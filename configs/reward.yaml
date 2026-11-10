@@ -1,0 +1,31 @@
+weights:
+  throughput: 1.0
+  energy: 0.1
+  leakage: 10.0
+  violation: 5.0
+
+bounds:
+  throughput:
+    min: 0.0
+    max: 171.875
+    unit: tonnes_per_timestep
+  energy:
+    min: 0.0
+    max: 1651.7936572613
+    unit: USD_per_timestep
+  leakage:
+    min: 0.0
+    max: 3.4375
+    unit: tonnes_per_timestep
+  violation:
+    min: 0.0
+    max: 1.0
+    unit: fraction
+
+interpretation:
+  throughput_reward: delivery and throughput term
+  energy_cost: energy cost penalty term
+  leakage_penalty: simulated transport-proportional leakage penalty term
+  violation_penalty: physical pressure, pressure-ratio, capacity, and action-correction penalty; excludes service shortfalls
+  normalization: min_max_over_configured_physical_envelope
+  logging: log_each_component_separately

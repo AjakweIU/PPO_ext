@@ -1,0 +1,85 @@
+network:
+  sources: 3
+  sinks: 2
+  pipeline_segments: 5
+  compressors: 2
+  time_steps_per_episode: 168
+
+physical:
+  min_pressure_pa: 4.0e6
+  max_pressure_pa: 2.5e7
+  source_capacity_tonnes_per_day: [1500.0, 2200.0, 2600.0]
+  sink_capacity_tonnes_per_day: [2200.0, 3000.0]
+  pipeline_lengths_km: [18.0, 24.0, 32.0, 20.0, 28.0]
+  pipeline_diameters_m: [0.45, 0.50, 0.55, 0.60, 0.52]
+  compressor_efficiency_range: [0.75, 0.88]
+  compressor_design_efficiency: [0.82, 0.82]
+  compressor_design_flow_tonnes_per_day: [1500.0, 1800.0]
+  max_pressure_ratio: 2.2
+  min_pressure_ratio: 1.0
+  pipeline_roughness_m: 4.6e-5
+  leakage_rate_range: [0.001, 0.02]
+
+topology:
+  type: documented_simplified_radial
+  source_capacity_interpretation: network_total_distributed_by_configured_source_capacity_shares
+  sink_demand_interpretation: network_total_distributed_by_configured_sink_capacity_shares
+  segments:
+    - {index: 0, name: source_1_feeder, from: source_1, to: compressor_1}
+    - {index: 1, name: source_2_feeder, from: source_2, to: compressor_1}
+    - {index: 2, name: source_3_feeder, from: source_3, to: compressor_2}
+    - {index: 3, name: compressor_1_discharge, from: compressor_1, to: sink_1}
+    - {index: 4, name: compressor_2_discharge, from: compressor_2, to: sink_2}
+  compressor_source_groups:
+    - {compressor: 0, sources: [0, 1], sink: 0}
+    - {compressor: 1, sources: [2], sink: 1}
+  compressor_action_semantics:
+    control_0_per_compressor: pressure_ratio_request_mapped_from_action_0.75_1.25_to_configured_min_max_pressure_ratio
+    control_1_per_compressor: design_flow_throttle_multiplier_clipped_to_0.75_1.25
+  failure_policy:
+    source_outage_probability: independent_per_source_at_reset
+    compressor_outage_probability: independent_per_compressor_at_reset
+    pipeline_outage_probability: failure_probability_divided_by_segment_count_per_segment_at_reset
+
+observation:
+  dims: 29
+  action_dims: 7
+  features:
+    - {index: 0, name: source_1_pressure, meaning: source pressure, unit: Pa, physical_range: [4.0e6, 2.5e7], normalization_range: [4.0e6, 2.5e7]}
+    - {index: 1, name: source_2_pressure, meaning: source pressure, unit: Pa, physical_range: [4.0e6, 2.5e7], normalization_range: [4.0e6, 2.5e7]}
+    - {index: 2, name: source_3_pressure, meaning: source pressure, unit: Pa, physical_range: [4.0e6, 2.5e7], normalization_range: [4.0e6, 2.5e7]}
+    - {index: 3, name: source_1_temperature, meaning: source temperature, unit: K, physical_range: [250.0, 350.0], normalization_range: [250.0, 350.0]}
+    - {index: 4, name: source_2_temperature, meaning: source temperature, unit: K, physical_range: [250.0, 350.0], normalization_range: [250.0, 350.0]}
+    - {index: 5, name: source_3_temperature, meaning: source temperature, unit: K, physical_range: [250.0, 350.0], normalization_range: [250.0, 350.0]}
+    - {index: 6, name: sink_1_pressure, meaning: sink pressure, unit: Pa, physical_range: [4.0e6, 2.5e7], normalization_range: [4.0e6, 2.5e7]}
+    - {index: 7, name: sink_2_pressure, meaning: sink pressure, unit: Pa, physical_range: [4.0e6, 2.5e7], normalization_range: [4.0e6, 2.5e7]}
+    - {index: 8, name: compressor_1_inlet_pressure, meaning: compressor inlet pressure, unit: Pa, physical_range: [4.0e6, 2.5e7], normalization_range: [4.0e6, 2.5e7]}
+    - {index: 9, name: compressor_1_outlet_pressure, meaning: compressor outlet pressure, unit: Pa, physical_range: [4.0e6, 2.5e7], normalization_range: [4.0e6, 2.5e7]}
+    - {index: 10, name: compressor_1_power, meaning: compressor electrical power, unit: kW, physical_range: [0.0, 8000.0], normalization_range: [0.0, 8000.0]}
+    - {index: 11, name: compressor_1_status, meaning: compressor operating status, unit: fraction, physical_range: [0.0, 1.0], normalization_range: [0.0, 1.0]}
+    - {index: 12, name: compressor_2_inlet_pressure, meaning: compressor inlet pressure, unit: Pa, physical_range: [4.0e6, 2.5e7], normalization_range: [4.0e6, 2.5e7]}
+    - {index: 13, name: compressor_2_outlet_pressure, meaning: compressor outlet pressure, unit: Pa, physical_range: [4.0e6, 2.5e7], normalization_range: [4.0e6, 2.5e7]}
+    - {index: 14, name: compressor_2_power, meaning: compressor electrical power, unit: kW, physical_range: [0.0, 8000.0], normalization_range: [0.0, 8000.0]}
+    - {index: 15, name: compressor_2_status, meaning: compressor operating status, unit: fraction, physical_range: [0.0, 1.0], normalization_range: [0.0, 1.0]}
+    - {index: 16, name: pipeline_segment_1_flow, meaning: pipeline segment flow, unit: tonnes/day, physical_range: [0.0, 5200.0], normalization_range: [0.0, 5200.0]}
+    - {index: 17, name: pipeline_segment_2_flow, meaning: pipeline segment flow, unit: tonnes/day, physical_range: [0.0, 5200.0], normalization_range: [0.0, 5200.0]}
+    - {index: 18, name: pipeline_segment_3_flow, meaning: pipeline segment flow, unit: tonnes/day, physical_range: [0.0, 5200.0], normalization_range: [0.0, 5200.0]}
+    - {index: 19, name: pipeline_segment_4_flow, meaning: pipeline segment flow, unit: tonnes/day, physical_range: [0.0, 5200.0], normalization_range: [0.0, 5200.0]}
+    - {index: 20, name: pipeline_segment_5_flow, meaning: pipeline segment flow, unit: tonnes/day, physical_range: [0.0, 5200.0], normalization_range: [0.0, 5200.0]}
+    - {index: 21, name: source_1_available_capacity, meaning: available source capacity, unit: tonnes/day, physical_range: [0.0, 5000.0], normalization_range: [0.0, 5000.0]}
+    - {index: 22, name: source_2_available_capacity, meaning: available source capacity, unit: tonnes/day, physical_range: [0.0, 5000.0], normalization_range: [0.0, 5000.0]}
+    - {index: 23, name: source_3_available_capacity, meaning: available source capacity, unit: tonnes/day, physical_range: [0.0, 5000.0], normalization_range: [0.0, 5000.0]}
+    - {index: 24, name: sink_1_demand, meaning: requested sink injection, unit: tonnes/day, physical_range: [0.0, 15000.0], normalization_range: [0.0, 15000.0]}
+    - {index: 25, name: sink_2_demand, meaning: requested sink injection, unit: tonnes/day, physical_range: [0.0, 15000.0], normalization_range: [0.0, 15000.0]}
+    - {index: 26, name: energy_price, meaning: electricity price, unit: USD/kWh, physical_range: [0.05, 0.525], normalization_range: [0.05, 0.525]}
+    - {index: 27, name: hour_of_day, meaning: hour of day, unit: hour, physical_range: [0.0, 23.0], normalization_range: [0.0, 23.0]}
+    - {index: 28, name: day_of_week, meaning: day of week, unit: day, physical_range: [0.0, 6.0], normalization_range: [0.0, 6.0]}
+
+assumptions:
+  unresolved_physical_values:
+    - exact node-level capacity curves
+    - exact sink demand profile
+    - exact pipeline elevation change per segment
+    - exact compressor design-point parameters outside the broad range
+    - exact network connectivity and compressor control semantics; the documented simplified radial topology is an explicit integration assumption
+  note: "This is the authoritative AI-only continuous configuration. Historical discrete ICTC parameters remain non-authoritative references only."

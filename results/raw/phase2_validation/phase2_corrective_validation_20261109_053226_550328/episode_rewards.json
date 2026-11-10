@@ -1,0 +1,5702 @@
+[
+  {
+    "scenario_id": "validation_normal_2000",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2000,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3147.570725746723,
+    "demand_rate_tonnes_per_day": 19048.946856213573,
+    "max_supply_rate_tonnes_per_day": 7554.169741792135,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3147.570725746723,
+      "energy": 373874.5342078704,
+      "leakage": 110.16497540113531,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10491902419155744,
+      "energy": 0.2119470148570694,
+      "leakage": 0.02622975604788936,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10491902419155744,
+      "energy": -0.021194701485706943,
+      "leakage": -0.2622975604788936,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.17857323777304307,
+    "absolute_contribution_percent": {
+      "throughput": 27.01235209457212,
+      "energy": 5.456767668997591,
+      "leakage": 67.53088023643029,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2001",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2001,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3923.6786737806474,
+    "demand_rate_tonnes_per_day": 8524.129945510878,
+    "max_supply_rate_tonnes_per_day": 9416.828817073554,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 3923.6786737806474,
+      "energy": 416762.01988673303,
+      "leakage": 137.32875358232266,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.13078928912602159,
+      "energy": 0.2362596484618668,
+      "leakage": 0.032697322281505396,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.13078928912602159,
+      "energy": -0.023625964846186683,
+      "leakage": -0.326973222815054,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.21980989853521907,
+    "absolute_contribution_percent": {
+      "throughput": 27.169177376013653,
+      "energy": 4.907879183952215,
+      "leakage": 67.92294344003413,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2002",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2002,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4717.137664573834,
+    "demand_rate_tonnes_per_day": 11005.101873163123,
+    "max_supply_rate_tonnes_per_day": 11321.130394977201,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 4717.137664573834,
+      "energy": 397960.39620138536,
+      "leakage": 165.0998182600842,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.15723792215246113,
+      "energy": 0.22560113163343842,
+      "leakage": 0.03930948053811528,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.15723792215246113,
+      "energy": -0.022560113163343845,
+      "leakage": -0.3930948053811528,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.2584169963920355,
+    "absolute_contribution_percent": {
+      "throughput": 27.446306007450183,
+      "energy": 3.937928973924363,
+      "leakage": 68.61576501862545,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2003",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2003,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1259.295942345076,
+    "demand_rate_tonnes_per_day": 19368.772358048605,
+    "max_supply_rate_tonnes_per_day": 3022.3102616281826,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1259.295942345076,
+      "energy": 340806.92951026245,
+      "leakage": 44.075357982077655,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.04197653141150253,
+      "energy": 0.1932012072053642,
+      "leakage": 0.010494132852875633,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.04197653141150253,
+      "energy": -0.019320120720536422,
+      "leakage": -0.10494132852875633,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.08228491783779023,
+    "absolute_contribution_percent": {
+      "throughput": 25.25086700683321,
+      "energy": 11.621965476083759,
+      "leakage": 63.12716751708302,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2004",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2004,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3575.5685532766415,
+    "demand_rate_tonnes_per_day": 16213.526553203796,
+    "max_supply_rate_tonnes_per_day": 8581.364527863938,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3575.5685532766415,
+      "energy": 340756.62613983685,
+      "leakage": 125.14489936468244,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.11918561844255472,
+      "energy": 0.19317269055546307,
+      "leakage": 0.029796404610638677,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.11918561844255472,
+      "energy": -0.01931726905554631,
+      "leakage": -0.29796404610638677,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.19809569671937835,
+    "absolute_contribution_percent": {
+      "throughput": 27.306906724475233,
+      "energy": 4.425826464336699,
+      "leakage": 68.26726681118808,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2005",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2005,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3089.208678810524,
+    "demand_rate_tonnes_per_day": 3375.235145989367,
+    "max_supply_rate_tonnes_per_day": 7580.008463436889,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 3089.208678810524,
+      "energy": 187359.88977080618,
+      "leakage": 108.12230375836835,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10297362262701747,
+      "energy": 0.10621308943923254,
+      "leakage": 0.025743405656754367,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10297362262701747,
+      "energy": -0.010621308943923255,
+      "leakage": -0.25743405656754365,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.16508174288444943,
+    "absolute_contribution_percent": {
+      "throughput": 27.75352490479347,
+      "energy": 2.8626628332228625,
+      "leakage": 69.38381226198366,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2006",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2006,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3281.907302753083,
+    "demand_rate_tonnes_per_day": 3281.907302753083,
+    "max_supply_rate_tonnes_per_day": 8990.542090010047,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 3281.907302753083,
+      "energy": 312286.7792582956,
+      "leakage": 114.8667555963579,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10939691009176944,
+      "energy": 0.17703332157499752,
+      "leakage": 0.02734922752294236,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10939691009176944,
+      "energy": -0.01770333215749975,
+      "leakage": -0.2734922752294236,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.1817986972951539,
+    "absolute_contribution_percent": {
+      "throughput": 27.3087752063637,
+      "energy": 4.41928677772704,
+      "leakage": 68.27193801590926,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2007",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2007,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1765.0616587690854,
+    "demand_rate_tonnes_per_day": 13908.229213407843,
+    "max_supply_rate_tonnes_per_day": 4236.147981045805,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1765.0616587690854,
+      "energy": 391479.9288974974,
+      "leakage": 61.77715805691799,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.05883538862563618,
+      "energy": 0.2219273973341822,
+      "leakage": 0.014708847156409046,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.05883538862563618,
+      "energy": -0.02219273973341822,
+      "leakage": -0.14708847156409047,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.11044582267187252,
+    "absolute_contribution_percent": {
+      "throughput": 25.791805000363194,
+      "energy": 9.728682498728814,
+      "leakage": 64.47951250090799,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2008",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2008,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 5631.350340737452,
+    "demand_rate_tonnes_per_day": 11790.207592691728,
+    "max_supply_rate_tonnes_per_day": 13515.240817769884,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 5631.350340737452,
+      "energy": 362458.38099944056,
+      "leakage": 197.0972619258108,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.18771167802458172,
+      "energy": 0.20547527267541982,
+      "leakage": 0.04692791950614543,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.18771167802458172,
+      "energy": -0.020547527267541985,
+      "leakage": -0.4692791950614543,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3021150443044146,
+    "absolute_contribution_percent": {
+      "throughput": 27.70495043921099,
+      "energy": 3.0326734627615375,
+      "leakage": 69.26237609802747,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2009",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2009,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2156.2066425832127,
+    "demand_rate_tonnes_per_day": 18080.77802933161,
+    "max_supply_rate_tonnes_per_day": 5174.895942199711,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2156.2066425832127,
+      "energy": 272436.0528911966,
+      "leakage": 75.46723249041246,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.07187355475277375,
+      "energy": 0.15444220685441987,
+      "leakage": 0.01796838868819344,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.07187355475277375,
+      "energy": -0.015444220685441988,
+      "leakage": -0.17968388688193443,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.12325455281460267,
+    "absolute_contribution_percent": {
+      "throughput": 26.918766770295715,
+      "energy": 5.784316303964989,
+      "leakage": 67.2969169257393,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2010",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2010,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1407.7568474483573,
+    "demand_rate_tonnes_per_day": 10759.745211702268,
+    "max_supply_rate_tonnes_per_day": 3378.6164338760573,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1407.7568474483573,
+      "energy": 281425.0573097483,
+      "leakage": 49.27148966069251,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.04692522824827858,
+      "energy": 0.15953801434792989,
+      "leakage": 0.011731307062069644,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.04692522824827858,
+      "energy": -0.01595380143479299,
+      "leakage": -0.11731307062069644,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.08634164380721085,
+    "absolute_contribution_percent": {
+      "throughput": 26.041778840011286,
+      "energy": 8.853774059960484,
+      "leakage": 65.10444710002822,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2011",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2011,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3540.8338433310128,
+    "demand_rate_tonnes_per_day": 18349.272901242213,
+    "max_supply_rate_tonnes_per_day": 8498.00122399443,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3540.8338433310128,
+      "energy": 240896.73927724443,
+      "leakage": 123.92918451658545,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.11802779477770042,
+      "energy": 0.1365627773680524,
+      "leakage": 0.029506948694425106,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.11802779477770042,
+      "energy": -0.01365627773680524,
+      "leakage": -0.29506948694425106,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.19069796990335586,
+    "absolute_contribution_percent": {
+      "throughput": 27.657131888341553,
+      "energy": 3.200038390804574,
+      "leakage": 69.14282972085388,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2012",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2012,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1167.2836321339887,
+    "demand_rate_tonnes_per_day": 8566.838141645629,
+    "max_supply_rate_tonnes_per_day": 2801.4807171215725,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1167.2836321339887,
+      "energy": 386163.1461514091,
+      "leakage": 40.8549271246896,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.03890945440446629,
+      "energy": 0.21891334815839517,
+      "leakage": 0.009727363601116572,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.03890945440446629,
+      "energy": -0.02189133481583952,
+      "leakage": -0.09727363601116573,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.08025551642253896,
+    "absolute_contribution_percent": {
+      "throughput": 24.614642341726313,
+      "energy": 13.848751803957915,
+      "leakage": 61.53660585431579,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2013",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2013,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2868.5248326548062,
+    "demand_rate_tonnes_per_day": 2934.3230829931367,
+    "max_supply_rate_tonnes_per_day": 7239.895423367593,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 2868.5248326548062,
+      "energy": 364406.8583914488,
+      "leakage": 100.39836914291823,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.09561749442182688,
+      "energy": 0.20657985169583265,
+      "leakage": 0.02390437360545672,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.09561749442182688,
+      "energy": -0.020657985169583268,
+      "leakage": -0.2390437360545672,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.1640842268023236,
+    "absolute_contribution_percent": {
+      "throughput": 26.910307749045426,
+      "energy": 5.813922878340999,
+      "leakage": 67.27576937261357,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2014",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2014,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2398.86160593153,
+    "demand_rate_tonnes_per_day": 9174.05780709281,
+    "max_supply_rate_tonnes_per_day": 5757.2678542356725,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2398.86160593153,
+      "energy": 276091.3569406541,
+      "leakage": 83.96015620760356,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.079962053531051,
+      "energy": 0.1565143746829105,
+      "leakage": 0.019990513382762753,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.079962053531051,
+      "energy": -0.01565143746829105,
+      "leakage": -0.19990513382762753,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.13559451776486758,
+    "absolute_contribution_percent": {
+      "throughput": 27.058211162788794,
+      "energy": 5.296260930239233,
+      "leakage": 67.64552790697198,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2015",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2015,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4713.264683694592,
+    "demand_rate_tonnes_per_day": 13523.998600943081,
+    "max_supply_rate_tonnes_per_day": 11311.835240867022,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 4713.264683694592,
+      "energy": 333314.10847948183,
+      "leakage": 164.96426392931073,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.15710882278981975,
+      "energy": 0.1889535762355339,
+      "leakage": 0.03927720569745494,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.15710882278981975,
+      "energy": -0.01889535762355339,
+      "leakage": -0.39277205697454937,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.254558591808283,
+    "absolute_contribution_percent": {
+      "throughput": 27.62225502094364,
+      "energy": 3.3221074266972566,
+      "leakage": 69.0556375523591,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2016",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2016,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4775.828289683224,
+    "demand_rate_tonnes_per_day": 10076.649678368367,
+    "max_supply_rate_tonnes_per_day": 11461.98789523974,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 4775.828289683224,
+      "energy": 230229.82486591485,
+      "leakage": 167.15399013891286,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.15919427632277414,
+      "energy": 0.1305157737335118,
+      "leakage": 0.03979856908069354,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.15919427632277414,
+      "energy": -0.013051577373351182,
+      "leakage": -0.3979856908069354,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.25184299185751247,
+    "absolute_contribution_percent": {
+      "throughput": 27.917479812785007,
+      "energy": 2.2888206552524606,
+      "leakage": 69.79369953196253,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2017",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2017,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1745.2913336634956,
+    "demand_rate_tonnes_per_day": 8174.848260246506,
+    "max_supply_rate_tonnes_per_day": 4188.699200792389,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1745.2913336634956,
+      "energy": 357829.30042249226,
+      "leakage": 61.085196678222346,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.058176377788783186,
+      "energy": 0.20285107733701374,
+      "leakage": 0.014544094447195796,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.058176377788783186,
+      "energy": -0.020285107733701374,
+      "leakage": -0.14544094447195796,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.10754967441687616,
+    "absolute_contribution_percent": {
+      "throughput": 25.982914875120912,
+      "energy": 9.059797937076821,
+      "leakage": 64.95728718780227,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2018",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2018,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2498.4112178360533,
+    "demand_rate_tonnes_per_day": 2498.4112178360538,
+    "max_supply_rate_tonnes_per_day": 8697.6320648207,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 2498.4112178360533,
+      "energy": 193653.02886230728,
+      "leakage": 87.44439262426188,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.08328037392786844,
+      "energy": 0.10978062860675016,
+      "leakage": 0.020820093481967113,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.08328037392786844,
+      "energy": -0.010978062860675016,
+      "leakage": -0.20820093481967114,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.13589862375247772,
+    "absolute_contribution_percent": {
+      "throughput": 27.534400235329525,
+      "energy": 3.6295991763466517,
+      "leakage": 68.83600058832383,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_normal_2019",
+    "scenario_type": "normal",
+    "is_ood": false,
+    "seed": 2019,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 5306.701000739252,
+    "demand_rate_tonnes_per_day": 16200.72311431609,
+    "max_supply_rate_tonnes_per_day": 12736.082401774203,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 5306.701000739252,
+      "energy": 335691.94832195784,
+      "leakage": 185.7345350258738,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.17689003335797507,
+      "energy": 0.19030155800564502,
+      "leakage": 0.04422250833949377,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.17689003335797507,
+      "energy": -0.019030155800564504,
+      "leakage": -0.44222508339493766,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.2843652058375271,
+    "absolute_contribution_percent": {
+      "throughput": 27.7193988525789,
+      "energy": 2.982104015973848,
+      "leakage": 69.29849713144726,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2000",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2000,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3147.570725746723,
+    "demand_rate_tonnes_per_day": 28573.42028432036,
+    "max_supply_rate_tonnes_per_day": 7554.169741792135,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3147.570725746723,
+      "energy": 426689.35688054474,
+      "leakage": 262.58285596490396,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10491902419155744,
+      "energy": 0.24188739052185076,
+      "leakage": 0.06251972761069141,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10491902419155744,
+      "energy": -0.024188739052185076,
+      "leakage": -0.6251972761069141,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.5444669909675417,
+    "absolute_contribution_percent": {
+      "throughput": 13.909362753545562,
+      "energy": 3.2067582463731052,
+      "leakage": 82.88387900008132,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2001",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2001,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3923.6786737806474,
+    "demand_rate_tonnes_per_day": 12786.194918266317,
+    "max_supply_rate_tonnes_per_day": 9416.828817073554,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3923.6786737806474,
+      "energy": 612601.3454353226,
+      "leakage": 355.0223658148587,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.13078928912602159,
+      "energy": 0.3472796742830627,
+      "leakage": 0.0845291347178235,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.13078928912602159,
+      "energy": -0.03472796742830627,
+      "leakage": -0.8452913471782351,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.7492300254805198,
+    "absolute_contribution_percent": {
+      "throughput": 12.939075572077883,
+      "energy": 3.435662033353102,
+      "leakage": 83.625262394569,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2002",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2002,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4717.137664573834,
+    "demand_rate_tonnes_per_day": 16507.652809744686,
+    "max_supply_rate_tonnes_per_day": 11321.130394977201,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 4717.137664573834,
+      "energy": 343391.8260283994,
+      "leakage": 200.66947666964577,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.15723792215246113,
+      "energy": 0.1946665680433103,
+      "leakage": 0.04777844682610614,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.15723792215246113,
+      "energy": -0.01946665680433103,
+      "leakage": -0.47778446826106136,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.34001320291293124,
+    "absolute_contribution_percent": {
+      "throughput": 24.0245307115312,
+      "energy": 2.974328888631707,
+      "leakage": 73.0011403998371,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2003",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2003,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1259.295942345076,
+    "demand_rate_tonnes_per_day": 29053.158537072908,
+    "max_supply_rate_tonnes_per_day": 3022.3102616281826,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1259.295942345076,
+      "energy": 627760.6203978105,
+      "leakage": 127.24559334235256,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.04197653141150253,
+      "energy": 0.3558733675724549,
+      "leakage": 0.030296569843417276,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.04197653141150253,
+      "energy": -0.03558733675724549,
+      "leakage": -0.30296569843417276,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.29657650377991573,
+    "absolute_contribution_percent": {
+      "throughput": 11.031082758230102,
+      "energy": 9.352055629984873,
+      "leakage": 79.61686161178501,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2004",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2004,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3575.5685532766415,
+    "demand_rate_tonnes_per_day": 24320.289829805693,
+    "max_supply_rate_tonnes_per_day": 8581.364527863938,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3575.5685532766415,
+      "energy": 560520.6074304365,
+      "leakage": 100.53333291813321,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.11918561844255472,
+      "energy": 0.31775544638913633,
+      "leakage": 0.023936507837650764,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.11918561844255472,
+      "energy": -0.03177554463891363,
+      "leakage": -0.23936507837650764,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.15195500457286654,
+    "absolute_contribution_percent": {
+      "throughput": 30.53487205916866,
+      "energy": 8.14076566315993,
+      "leakage": 61.324362277671405,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2005",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2005,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3158.33685976537,
+    "demand_rate_tonnes_per_day": 5062.852718984051,
+    "max_supply_rate_tonnes_per_day": 7580.008463436889,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 3158.33685976537,
+      "energy": 265057.8569526009,
+      "leakage": 409.597401508896,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10527789532551232,
+      "energy": 0.15025955609557873,
+      "leakage": 0.09752319083545143,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10527789532551232,
+      "energy": -0.015025955609557873,
+      "leakage": -0.9752319083545142,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.8849799686385598,
+    "absolute_contribution_percent": {
+      "throughput": 9.609717841960837,
+      "energy": 1.3715623138857345,
+      "leakage": 89.01871984415342,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2006",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2006,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3746.0592041708524,
+    "demand_rate_tonnes_per_day": 4922.860954129625,
+    "max_supply_rate_tonnes_per_day": 8990.542090010047,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 3746.0592041708524,
+      "energy": 284102.97548451036,
+      "leakage": 121.23244218611082,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.12486864013902842,
+      "energy": 0.16105610855130972,
+      "leakage": 0.02886486718716924,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.12486864013902842,
+      "energy": -0.016105610855130972,
+      "leakage": -0.2886486718716924,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.17988564258779496,
+    "absolute_contribution_percent": {
+      "throughput": 29.064706162808307,
+      "energy": 3.7487782885737433,
+      "leakage": 67.18651554861795,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2007",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2007,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1765.0616587690854,
+    "demand_rate_tonnes_per_day": 20862.343820111764,
+    "max_supply_rate_tonnes_per_day": 4236.147981045805,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1765.0616587690854,
+      "energy": 491344.29115300014,
+      "leakage": 140.9828170992072,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.05883538862563618,
+      "energy": 0.2785398475924037,
+      "leakage": 0.03356733740457315,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.05883538862563618,
+      "energy": -0.02785398475924037,
+      "leakage": -0.3356733740457315,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3046919701793357,
+    "absolute_contribution_percent": {
+      "throughput": 13.93006106328128,
+      "energy": 6.594801489640521,
+      "leakage": 79.4751374470782,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2008",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2008,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 5631.350340737452,
+    "demand_rate_tonnes_per_day": 17685.31138903759,
+    "max_supply_rate_tonnes_per_day": 13515.240817769884,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 5631.350340737452,
+      "energy": 696024.1947416068,
+      "leakage": 771.6863653836236,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.18771167802458172,
+      "energy": 0.39457153896916486,
+      "leakage": 0.18373484890086278,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.18771167802458172,
+      "energy": -0.03945715389691649,
+      "leakage": -1.8373484890086278,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -1.6890939648809626,
+    "absolute_contribution_percent": {
+      "throughput": 9.092279155110797,
+      "energy": 1.9112047884945753,
+      "leakage": 88.99651605639463,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2009",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2009,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2156.2066425832127,
+    "demand_rate_tonnes_per_day": 27121.167043997415,
+    "max_supply_rate_tonnes_per_day": 5174.895942199711,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2156.2066425832127,
+      "energy": 342816.7677742764,
+      "leakage": 192.53195211326033,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.07187355475277375,
+      "energy": 0.1943405713006102,
+      "leakage": 0.0458409409793477,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.07187355475277375,
+      "energy": -0.019434057130061022,
+      "leakage": -0.458409409793477,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.4059699121707643,
+    "absolute_contribution_percent": {
+      "throughput": 13.074646030352474,
+      "energy": 3.535283857647093,
+      "leakage": 83.39007011200043,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2010",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2010,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1407.7568474483573,
+    "demand_rate_tonnes_per_day": 16139.6178175534,
+    "max_supply_rate_tonnes_per_day": 3378.6164338760573,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1407.7568474483573,
+      "energy": 336731.832262561,
+      "leakage": 45.514115047809476,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.04692522824827858,
+      "energy": 0.19089106137333392,
+      "leakage": 0.010836694059002255,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.04692522824827858,
+      "energy": -0.019089106137333393,
+      "leakage": -0.10836694059002255,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.08053081847907737,
+    "absolute_contribution_percent": {
+      "throughput": 26.909556805818298,
+      "energy": 10.946763716460167,
+      "leakage": 62.143679477721534,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2011",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2011,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3540.8338433310128,
+    "demand_rate_tonnes_per_day": 27523.90935186332,
+    "max_supply_rate_tonnes_per_day": 8498.00122399443,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3540.8338433310128,
+      "energy": 219484.14125217692,
+      "leakage": 126.67726494471138,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.11802779477770042,
+      "energy": 0.12442411635610937,
+      "leakage": 0.030161253558264614,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.11802779477770042,
+      "energy": -0.012442411635610938,
+      "leakage": -0.3016125355826461,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.19602715244055663,
+    "absolute_contribution_percent": {
+      "throughput": 27.316016888914458,
+      "energy": 2.879636334960897,
+      "leakage": 69.80434677612465,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2012",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2012,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1167.2836321339887,
+    "demand_rate_tonnes_per_day": 12850.257212468443,
+    "max_supply_rate_tonnes_per_day": 2801.4807171215725,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1167.2836321339887,
+      "energy": 543689.8213702665,
+      "leakage": 24.753019120194235,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.03890945440446629,
+      "energy": 0.30821418445026444,
+      "leakage": 0.005893575980998628,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.03890945440446629,
+      "energy": -0.030821418445026446,
+      "leakage": -0.05893575980998628,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.050847723850546436,
+    "absolute_contribution_percent": {
+      "throughput": 30.24051659721413,
+      "energy": 23.95447662533958,
+      "leakage": 45.80500677744628,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2013",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2013,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3016.6230930698302,
+    "demand_rate_tonnes_per_day": 4401.484624489705,
+    "max_supply_rate_tonnes_per_day": 7239.895423367593,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 3016.6230930698302,
+      "energy": 413708.6853375122,
+      "leakage": 243.43219190225335,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10055410310232768,
+      "energy": 0.2345287331845307,
+      "leakage": 0.0579600456910127,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10055410310232768,
+      "energy": -0.023452873318453072,
+      "leakage": -0.579600456910127,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.5024992271262524,
+    "absolute_contribution_percent": {
+      "throughput": 14.291222397452547,
+      "energy": 3.3332327385209917,
+      "leakage": 82.37554486402647,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2014",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2014,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2398.86160593153,
+    "demand_rate_tonnes_per_day": 13761.086710639214,
+    "max_supply_rate_tonnes_per_day": 5757.2678542356725,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2398.86160593153,
+      "energy": 187138.32838563985,
+      "leakage": 56.82848643099927,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.079962053531051,
+      "energy": 0.10608748774696136,
+      "leakage": 0.01353059200738078,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.079962053531051,
+      "energy": -0.010608748774696137,
+      "leakage": -0.1353059200738078,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.06595261531745293,
+    "absolute_contribution_percent": {
+      "throughput": 35.40074988191378,
+      "energy": 4.696698563240876,
+      "leakage": 59.90255155484535,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2015",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2015,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4713.264683694592,
+    "demand_rate_tonnes_per_day": 20285.997901414623,
+    "max_supply_rate_tonnes_per_day": 11311.835240867022,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 4713.264683694592,
+      "energy": 424964.16099263716,
+      "leakage": 614.8721002650295,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.15710882278981975,
+      "energy": 0.24090938831782152,
+      "leakage": 0.14639811911072131,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.15710882278981975,
+      "energy": -0.024090938831782153,
+      "leakage": -1.4639811911072131,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -1.3309633071491755,
+    "absolute_contribution_percent": {
+      "throughput": 9.549637839486762,
+      "energy": 1.464333682676255,
+      "leakage": 88.98602847783698,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2016",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2016,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4775.828289683224,
+    "demand_rate_tonnes_per_day": 15114.97451755255,
+    "max_supply_rate_tonnes_per_day": 11461.98789523974,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 4775.828289683224,
+      "energy": 269186.3461394416,
+      "leakage": 221.8895411593345,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.15919427632277414,
+      "energy": 0.15259996946680363,
+      "leakage": 0.05283084313317488,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.15919427632277414,
+      "energy": -0.015259996946680364,
+      "leakage": -0.5283084313317489,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3843741519556551,
+    "absolute_contribution_percent": {
+      "throughput": 22.65263584428717,
+      "energy": 2.1714295375620356,
+      "leakage": 75.17593461815079,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2017",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2017,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1745.2913336634956,
+    "demand_rate_tonnes_per_day": 12262.272390369759,
+    "max_supply_rate_tonnes_per_day": 4188.699200792389,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1745.2913336634956,
+      "energy": 506027.30710550206,
+      "leakage": 38.950465857717425,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.058176377788783186,
+      "energy": 0.28686355278089687,
+      "leakage": 0.009273920442313673,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.058176377788783186,
+      "energy": -0.028686355278089687,
+      "leakage": -0.09273920442313674,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.06324918191244325,
+    "absolute_contribution_percent": {
+      "throughput": 32.391843095801384,
+      "energy": 15.972185867808564,
+      "leakage": 51.63597103639006,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2018",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2018,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3520.2539813989883,
+    "demand_rate_tonnes_per_day": 3747.6168267540806,
+    "max_supply_rate_tonnes_per_day": 8697.6320648207,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 3520.2539813989883,
+      "energy": 124941.56432250411,
+      "leakage": 428.6184182531553,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.11734179937996628,
+      "energy": 0.07082855120323363,
+      "leakage": 0.10205200434598936,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.11734179937996628,
+      "energy": -0.007082855120323363,
+      "leakage": -1.0205200434598936,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.9102610992002507,
+    "absolute_contribution_percent": {
+      "throughput": 10.248687084102901,
+      "energy": 0.618619845390094,
+      "leakage": 89.132693070507,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_high_demand_2019",
+    "scenario_type": "high_demand",
+    "is_ood": false,
+    "seed": 2019,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 5306.701000739252,
+    "demand_rate_tonnes_per_day": 24301.084671474135,
+    "max_supply_rate_tonnes_per_day": 12736.082401774203,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 5306.701000739252,
+      "energy": 724971.2860431504,
+      "leakage": 597.0598021707724,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.17689003335797507,
+      "energy": 0.41098145467298774,
+      "leakage": 0.1421570957549458,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.17689003335797507,
+      "energy": -0.04109814546729878,
+      "leakage": -1.4215709575494582,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -1.2857790696587819,
+    "absolute_contribution_percent": {
+      "throughput": 10.788877902208567,
+      "energy": 2.5066583178068136,
+      "leakage": 86.70446377998462,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2000",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2000,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2203.2995080227056,
+    "demand_rate_tonnes_per_day": 19048.946856213573,
+    "max_supply_rate_tonnes_per_day": 5287.918819254494,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2203.2995080227056,
+      "energy": 426689.35688054474,
+      "leakage": 154.23096556158941,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.07344331693409019,
+      "energy": 0.24188739052185076,
+      "leakage": 0.0367216584670451,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.07344331693409019,
+      "energy": -0.024188739052185076,
+      "leakage": -0.36721658467045104,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3179620067885459,
+    "absolute_contribution_percent": {
+      "throughput": 15.799404475041884,
+      "energy": 5.203573149748667,
+      "leakage": 78.99702237520944,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2001",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2001,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2746.575071646452,
+    "demand_rate_tonnes_per_day": 8524.129945510878,
+    "max_supply_rate_tonnes_per_day": 6591.780171951486,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2746.575071646452,
+      "energy": 612601.3454353226,
+      "leakage": 192.26025501525166,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.09155250238821508,
+      "energy": 0.3472796742830627,
+      "leakage": 0.04577625119410754,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.09155250238821508,
+      "energy": -0.03472796742830627,
+      "leakage": -0.4577625119410754,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.4009379769811666,
+    "absolute_contribution_percent": {
+      "throughput": 15.67564464394392,
+      "energy": 5.946132136336481,
+      "leakage": 78.37822321971962,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2002",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2002,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3301.996365201683,
+    "demand_rate_tonnes_per_day": 11005.101873163123,
+    "max_supply_rate_tonnes_per_day": 7924.79127648404,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3301.996365201683,
+      "energy": 343391.8260283994,
+      "leakage": 231.13974556411782,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.11006654550672278,
+      "energy": 0.1946665680433103,
+      "leakage": 0.05503327275336139,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.11006654550672278,
+      "energy": -0.01946665680433103,
+      "leakage": -0.5503327275336138,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.45973283883122207,
+    "absolute_contribution_percent": {
+      "throughput": 16.189448636125984,
+      "energy": 2.8633081832441105,
+      "leakage": 80.9472431806299,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2003",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2003,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 881.5071596415532,
+    "demand_rate_tonnes_per_day": 19368.772358048605,
+    "max_supply_rate_tonnes_per_day": 2115.617183139728,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 881.5071596415532,
+      "energy": 627760.6203978105,
+      "leakage": 61.705501174908726,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.029383571988051777,
+      "energy": 0.3558733675724549,
+      "leakage": 0.014691785994025887,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.029383571988051777,
+      "energy": -0.03558733675724549,
+      "leakage": -0.14691785994025885,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.15312162470945256,
+    "absolute_contribution_percent": {
+      "throughput": 13.867451385144971,
+      "energy": 16.795291689130188,
+      "leakage": 69.33725692572484,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2004",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2004,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2502.8979872936493,
+    "demand_rate_tonnes_per_day": 16213.526553203796,
+    "max_supply_rate_tonnes_per_day": 6006.955169504757,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2502.8979872936493,
+      "energy": 560520.6074304365,
+      "leakage": 175.20285911055547,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.08342993290978831,
+      "energy": 0.31775544638913633,
+      "leakage": 0.041714966454894156,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.08342993290978831,
+      "energy": -0.03177554463891363,
+      "leakage": -0.41714966454894153,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3654952762780669,
+    "absolute_contribution_percent": {
+      "throughput": 15.67185630649657,
+      "energy": 5.968862161020589,
+      "leakage": 78.35928153248285,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2005",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2005,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2210.835801835759,
+    "demand_rate_tonnes_per_day": 3375.235145989367,
+    "max_supply_rate_tonnes_per_day": 5306.005924405822,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 2210.835801835759,
+      "energy": 265057.8569526009,
+      "leakage": 154.75850612850311,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.07369452672785863,
+      "energy": 0.15025955609557873,
+      "leakage": 0.036847263363929315,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.07369452672785863,
+      "energy": -0.015025955609557873,
+      "leakage": -0.36847263363929317,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3098040625209924,
+    "absolute_contribution_percent": {
+      "throughput": 16.118905589911108,
+      "energy": 3.286566460533349,
+      "leakage": 80.59452794955556,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2006",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2006,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2622.2414429195965,
+    "demand_rate_tonnes_per_day": 3281.907302753083,
+    "max_supply_rate_tonnes_per_day": 6293.3794630070315,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 2622.2414429195965,
+      "energy": 284102.97548451036,
+      "leakage": 183.55690100437175,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.08740804809731988,
+      "energy": 0.16105610855130972,
+      "leakage": 0.04370402404865994,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.08740804809731988,
+      "energy": -0.016105610855130972,
+      "leakage": -0.4370402404865994,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3657378032444105,
+    "absolute_contribution_percent": {
+      "throughput": 16.17008927102847,
+      "energy": 2.9794643738291913,
+      "leakage": 80.85044635514235,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2007",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2007,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1235.5431611383594,
+    "demand_rate_tonnes_per_day": 13908.229213407843,
+    "max_supply_rate_tonnes_per_day": 2965.303586732063,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1235.5431611383594,
+      "energy": 491344.29115300014,
+      "leakage": 86.48802127968517,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.041184772037945315,
+      "energy": 0.2785398475924037,
+      "leakage": 0.02059238601897266,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.041184772037945315,
+      "energy": -0.02785398475924037,
+      "leakage": -0.2059238601897266,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.19259307291102168,
+    "absolute_contribution_percent": {
+      "throughput": 14.978316866945457,
+      "energy": 10.130098798327253,
+      "leakage": 74.8915843347273,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2008",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2008,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3941.945238516216,
+    "demand_rate_tonnes_per_day": 11790.207592691728,
+    "max_supply_rate_tonnes_per_day": 9460.668572438917,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3941.945238516216,
+      "energy": 696024.1947416068,
+      "leakage": 275.9361666961351,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.13139817461720718,
+      "energy": 0.39457153896916486,
+      "leakage": 0.06569908730860359,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.13139817461720718,
+      "energy": -0.03945715389691649,
+      "leakage": -0.6569908730860359,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.5650498523657452,
+    "absolute_contribution_percent": {
+      "throughput": 15.872292989111402,
+      "energy": 4.766242065331581,
+      "leakage": 79.36146494555702,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2009",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2009,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1509.344649808249,
+    "demand_rate_tonnes_per_day": 18080.77802933161,
+    "max_supply_rate_tonnes_per_day": 3622.4271595397972,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1509.344649808249,
+      "energy": 342816.7677742764,
+      "leakage": 105.65412548657743,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.050311488326941635,
+      "energy": 0.1943405713006102,
+      "leakage": 0.025155744163470817,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.050311488326941635,
+      "energy": -0.019434057130061022,
+      "leakage": -0.25155744163470817,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.22068001043782756,
+    "absolute_contribution_percent": {
+      "throughput": 15.658580949507645,
+      "energy": 6.04851430295414,
+      "leakage": 78.29290474753823,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2010",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2010,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 985.4297932138501,
+    "demand_rate_tonnes_per_day": 10759.745211702268,
+    "max_supply_rate_tonnes_per_day": 2365.03150371324,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 985.4297932138501,
+      "energy": 336731.832262561,
+      "leakage": 68.98008552496951,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.032847659773795,
+      "energy": 0.19089106137333392,
+      "leakage": 0.0164238298868975,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.032847659773795,
+      "energy": -0.019089106137333393,
+      "leakage": -0.164238298868975,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.1504797452325134,
+    "absolute_contribution_percent": {
+      "throughput": 15.194934627269868,
+      "energy": 8.830392236380789,
+      "leakage": 75.97467313634935,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2011",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2011,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2478.5836903317086,
+    "demand_rate_tonnes_per_day": 18349.272901242213,
+    "max_supply_rate_tonnes_per_day": 5948.600856796101,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2478.5836903317086,
+      "energy": 219484.14125217692,
+      "leakage": 173.50085832321963,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.08261945634439029,
+      "energy": 0.12442411635610937,
+      "leakage": 0.04130972817219515,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.08261945634439029,
+      "energy": -0.012442411635610938,
+      "leakage": -0.4130972817219515,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.34292023701317215,
+    "absolute_contribution_percent": {
+      "throughput": 16.25857891033715,
+      "energy": 2.4485265379770698,
+      "leakage": 81.29289455168576,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2012",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2012,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 817.0985424937919,
+    "demand_rate_tonnes_per_day": 8566.838141645629,
+    "max_supply_rate_tonnes_per_day": 1961.036501985101,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 817.0985424937919,
+      "energy": 543689.8213702665,
+      "leakage": 57.19689797456544,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.027236618083126395,
+      "energy": 0.30821418445026444,
+      "leakage": 0.0136183090415632,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.027236618083126395,
+      "energy": -0.030821418445026446,
+      "leakage": -0.13618309041563198,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.13976789077753204,
+    "absolute_contribution_percent": {
+      "throughput": 14.02206551808615,
+      "energy": 15.867606891483105,
+      "leakage": 70.11032759043076,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2013",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2013,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2111.6361651488814,
+    "demand_rate_tonnes_per_day": 2934.3230829931367,
+    "max_supply_rate_tonnes_per_day": 5067.926796357315,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 2111.6361651488814,
+      "energy": 413708.6853375122,
+      "leakage": 147.8145315604217,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.07038787217162938,
+      "energy": 0.2345287331845307,
+      "leakage": 0.03519393608581469,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.07038787217162938,
+      "energy": -0.023452873318453072,
+      "leakage": -0.3519393608581469,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3050043620049706,
+    "absolute_contribution_percent": {
+      "throughput": 15.78981905411557,
+      "energy": 5.261085675306566,
+      "leakage": 78.94909527057786,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2014",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2014,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1679.2031241520706,
+    "demand_rate_tonnes_per_day": 9174.05780709281,
+    "max_supply_rate_tonnes_per_day": 4030.08749796497,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1679.2031241520706,
+      "energy": 187138.32838563985,
+      "leakage": 117.54421869064494,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.055973437471735686,
+      "energy": 0.10608748774696136,
+      "leakage": 0.027986718735867843,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.055973437471735686,
+      "energy": -0.010608748774696137,
+      "leakage": -0.27986718735867844,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.2345024986616389,
+    "absolute_contribution_percent": {
+      "throughput": 16.156310773283515,
+      "energy": 3.062135360298903,
+      "leakage": 80.78155386641758,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2015",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2015,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3299.285278586214,
+    "demand_rate_tonnes_per_day": 13523.998600943081,
+    "max_supply_rate_tonnes_per_day": 7918.284668606915,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3299.285278586214,
+      "energy": 424964.16099263716,
+      "leakage": 230.94996950103499,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.1099761759528738,
+      "energy": 0.24090938831782152,
+      "leakage": 0.0549880879764369,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.1099761759528738,
+      "energy": -0.024090938831782153,
+      "leakage": -0.5498808797643691,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.4639956426432774,
+    "absolute_contribution_percent": {
+      "throughput": 16.079610851902395,
+      "energy": 3.5223348885856454,
+      "leakage": 80.39805425951197,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2016",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2016,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3343.0798027782575,
+    "demand_rate_tonnes_per_day": 10076.649678368367,
+    "max_supply_rate_tonnes_per_day": 8023.391526667818,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3343.0798027782575,
+      "energy": 269186.3461394416,
+      "leakage": 234.01558619447806,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.11143599342594192,
+      "energy": 0.15259996946680363,
+      "leakage": 0.055717996712970966,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.11143599342594192,
+      "energy": -0.015259996946680364,
+      "leakage": -0.5571799671297096,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.46100397065044807,
+    "absolute_contribution_percent": {
+      "throughput": 16.294766938865802,
+      "energy": 2.231398366805186,
+      "leakage": 81.47383469432901,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2017",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2017,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1221.7039335644467,
+    "demand_rate_tonnes_per_day": 8174.848260246506,
+    "max_supply_rate_tonnes_per_day": 2932.0894405546724,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1221.7039335644467,
+      "energy": 506027.30710550206,
+      "leakage": 85.51927534951129,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.04072346445214822,
+      "energy": 0.28686355278089687,
+      "leakage": 0.020361732226074118,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.04072346445214822,
+      "energy": -0.028686355278089687,
+      "leakage": -0.2036173222607412,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.19158021308668266,
+    "absolute_contribution_percent": {
+      "throughput": 14.915537025067543,
+      "energy": 10.506777849594709,
+      "leakage": 74.57768512533775,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2018",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2018,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2422.5376000153565,
+    "demand_rate_tonnes_per_day": 2498.4112178360538,
+    "max_supply_rate_tonnes_per_day": 6088.34244537449,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 2422.5376000153565,
+      "energy": 124941.56432250411,
+      "leakage": 169.57763200107496,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.08075125333384521,
+      "energy": 0.07082855120323363,
+      "leakage": 0.04037562666692261,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.08075125333384521,
+      "energy": -0.007082855120323363,
+      "leakage": -0.40375626666922615,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3300878684557043,
+    "absolute_contribution_percent": {
+      "throughput": 16.42653262150947,
+      "energy": 1.440804270943158,
+      "leakage": 82.13266310754737,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_low_supply_2019",
+    "scenario_type": "low_supply",
+    "is_ood": false,
+    "seed": 2019,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3714.6907005174753,
+    "demand_rate_tonnes_per_day": 16200.72311431609,
+    "max_supply_rate_tonnes_per_day": 8915.257681241941,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3714.6907005174753,
+      "energy": 724971.2860431504,
+      "leakage": 260.0283490362233,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.12382302335058251,
+      "energy": 0.41098145467298774,
+      "leakage": 0.06191151167529126,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.12382302335058251,
+      "energy": -0.04109814546729878,
+      "leakage": -0.6191151167529126,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.5363902388696289,
+    "absolute_contribution_percent": {
+      "throughput": 15.793022036019277,
+      "energy": 5.241867783884327,
+      "leakage": 78.96511018009639,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2000",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2000,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2832.8136531720506,
+    "demand_rate_tonnes_per_day": 19048.946856213573,
+    "max_supply_rate_tonnes_per_day": 6798.752767612922,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2832.8136531720506,
+      "energy": 426689.35688054474,
+      "leakage": 236.3245703684135,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.09442712177240169,
+      "energy": 0.24188739052185076,
+      "leakage": 0.056267754849622265,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.09442712177240169,
+      "energy": -0.024188739052185076,
+      "leakage": -0.5626775484962226,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.49243916577600605,
+    "absolute_contribution_percent": {
+      "throughput": 13.859978752258495,
+      "energy": 3.550414362043977,
+      "leakage": 82.58960688569753,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2001",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2001,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3531.3108064025823,
+    "demand_rate_tonnes_per_day": 8524.129945510878,
+    "max_supply_rate_tonnes_per_day": 8475.145935366198,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3531.3108064025823,
+      "energy": 612601.3454353226,
+      "leakage": 319.5201292333728,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.11771036021341941,
+      "energy": 0.3472796742830627,
+      "leakage": 0.07607622124604115,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.11771036021341941,
+      "energy": -0.03472796742830627,
+      "leakage": -0.7607622124604114,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.6777798196752983,
+    "absolute_contribution_percent": {
+      "throughput": 12.889869754156525,
+      "energy": 3.8028851170436355,
+      "leakage": 83.30724512879983,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2002",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2002,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4245.42389811645,
+    "demand_rate_tonnes_per_day": 11005.101873163123,
+    "max_supply_rate_tonnes_per_day": 10189.01735547948,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 4245.42389811645,
+      "energy": 343391.8260283994,
+      "leakage": 180.6025290026812,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.141514129937215,
+      "energy": 0.1946665680433103,
+      "leakage": 0.04300060214349552,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.141514129937215,
+      "energy": -0.01946665680433103,
+      "leakage": -0.4300060214349552,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.30795854830207126,
+    "absolute_contribution_percent": {
+      "throughput": 23.945395731227737,
+      "energy": 3.2939240834149404,
+      "leakage": 72.7606801853573,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2003",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2003,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1133.3663481105687,
+    "demand_rate_tonnes_per_day": 19368.772358048605,
+    "max_supply_rate_tonnes_per_day": 2720.079235465364,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1133.3663481105687,
+      "energy": 627760.6203978105,
+      "leakage": 114.52103400811734,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.03777887827035229,
+      "energy": 0.3558733675724549,
+      "leakage": 0.027266912859075558,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.03777887827035229,
+      "energy": -0.03558733675724549,
+      "leakage": -0.2726691285907556,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.2704775870776488,
+    "absolute_contribution_percent": {
+      "throughput": 10.917635717587011,
+      "energy": 10.28430691071118,
+      "leakage": 78.79805737170182,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2004",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2004,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3218.0116979489767,
+    "demand_rate_tonnes_per_day": 16213.526553203796,
+    "max_supply_rate_tonnes_per_day": 7723.228075077544,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3218.0116979489767,
+      "energy": 560520.6074304365,
+      "leakage": 90.47999962631988,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10726705659829923,
+      "energy": 0.31775544638913633,
+      "leakage": 0.021542857053885686,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10726705659829923,
+      "energy": -0.03177554463891363,
+      "leakage": -0.21542857053885686,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.13993705857947125,
+    "absolute_contribution_percent": {
+      "throughput": 30.261151015706044,
+      "energy": 8.96421124451475,
+      "leakage": 60.774637739779216,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2005",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2005,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2836.5417300292943,
+    "demand_rate_tonnes_per_day": 3375.235145989367,
+    "max_supply_rate_tonnes_per_day": 6822.0076170932,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 2836.5417300292943,
+      "energy": 265057.8569526009,
+      "leakage": 367.8645355067855,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.09455139100097648,
+      "energy": 0.15025955609557873,
+      "leakage": 0.08758679416828226,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.09455139100097648,
+      "energy": -0.015025955609557873,
+      "leakage": -0.8758679416828226,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.7963425062914039,
+    "absolute_contribution_percent": {
+      "throughput": 9.594788480314852,
+      "energy": 1.5247884167755847,
+      "leakage": 88.88042310290956,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2006",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2006,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3206.7464920700545,
+    "demand_rate_tonnes_per_day": 3281.907302753083,
+    "max_supply_rate_tonnes_per_day": 8091.487881009041,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 3206.7464920700545,
+      "energy": 284102.97548451036,
+      "leakage": 103.77884798845417,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10689154973566849,
+      "energy": 0.16105610855130972,
+      "leakage": 0.024709249521060517,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10689154973566849,
+      "energy": -0.016105610855130972,
+      "leakage": -0.24709249521060517,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.15630655633006765,
+    "absolute_contribution_percent": {
+      "throughput": 28.882609405605226,
+      "energy": 4.3518132978495006,
+      "leakage": 66.76557729654527,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2007",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2007,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1588.5554928921767,
+    "demand_rate_tonnes_per_day": 13908.229213407843,
+    "max_supply_rate_tonnes_per_day": 3812.5331829412244,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1588.5554928921767,
+      "energy": 491344.29115300014,
+      "leakage": 126.88453538928648,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.05295184976307256,
+      "energy": 0.2785398475924037,
+      "leakage": 0.03021060366411583,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.05295184976307256,
+      "energy": -0.02785398475924037,
+      "leakage": -0.3021060366411583,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.2770081716373261,
+    "absolute_contribution_percent": {
+      "throughput": 13.828730251214008,
+      "energy": 7.274254693281383,
+      "leakage": 78.89701505550461,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2008",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2008,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 5068.215306663706,
+    "demand_rate_tonnes_per_day": 11790.207592691728,
+    "max_supply_rate_tonnes_per_day": 12163.716735992895,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 5068.215306663706,
+      "energy": 696024.1947416068,
+      "leakage": 694.5177288452611,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.16894051022212353,
+      "energy": 0.39457153896916486,
+      "leakage": 0.16536136401077645,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.16894051022212353,
+      "energy": -0.03945715389691649,
+      "leakage": -1.6536136401077646,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -1.5241302837825574,
+    "absolute_contribution_percent": {
+      "throughput": 9.07301206166821,
+      "energy": 2.119060921238659,
+      "leakage": 88.80792701709314,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2009",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2009,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1940.585978324892,
+    "demand_rate_tonnes_per_day": 18080.77802933161,
+    "max_supply_rate_tonnes_per_day": 4657.4063479797405,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1940.585978324892,
+      "energy": 342816.7677742764,
+      "leakage": 173.27875690193434,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.0646861992774964,
+      "energy": 0.1943405713006102,
+      "leakage": 0.04125684688141294,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.0646861992774964,
+      "energy": -0.019434057130061022,
+      "leakage": -0.41256846881412945,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.36731632666669406,
+    "absolute_contribution_percent": {
+      "throughput": 13.023488553847287,
+      "energy": 3.9127236321676166,
+      "leakage": 83.06378781398509,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2010",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2010,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1266.9811627035215,
+    "demand_rate_tonnes_per_day": 10759.745211702268,
+    "max_supply_rate_tonnes_per_day": 3040.754790488452,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1266.9811627035215,
+      "energy": 336731.832262561,
+      "leakage": 40.962703543028525,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.042232705423450714,
+      "energy": 0.19089106137333392,
+      "leakage": 0.00975302465310203,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.042232705423450714,
+      "energy": -0.019089106137333393,
+      "leakage": -0.0975302465310203,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.07438664724490297,
+    "absolute_contribution_percent": {
+      "throughput": 26.586187129563925,
+      "energy": 12.016908289788313,
+      "leakage": 61.39690458064776,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2011",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2011,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3186.750458997911,
+    "demand_rate_tonnes_per_day": 18349.272901242213,
+    "max_supply_rate_tonnes_per_day": 7648.201101594987,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3186.750458997911,
+      "energy": 219484.14125217692,
+      "leakage": 114.00953845024024,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10622501529993038,
+      "energy": 0.12442411635610937,
+      "leakage": 0.027145128202438154,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10622501529993038,
+      "energy": -0.012442411635610938,
+      "leakage": -0.2714512820243815,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.17766867836006206,
+    "absolute_contribution_percent": {
+      "throughput": 27.228895425992743,
+      "energy": 3.1893911647516386,
+      "leakage": 69.58171340925561,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2012",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2012,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1050.5552689205897,
+    "demand_rate_tonnes_per_day": 8566.838141645629,
+    "max_supply_rate_tonnes_per_day": 2521.3326454094154,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1050.5552689205897,
+      "energy": 543689.8213702665,
+      "leakage": 22.27771720817481,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.03501850896401966,
+      "energy": 0.30821418445026444,
+      "leakage": 0.005304218382898764,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.03501850896401966,
+      "energy": -0.030821418445026446,
+      "leakage": -0.05304218382898764,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.048845093309994425,
+    "absolute_contribution_percent": {
+      "throughput": 29.45649988828281,
+      "energy": 25.926035569231885,
+      "leakage": 44.6174645424853,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2013",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2013,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2661.0224741758007,
+    "demand_rate_tonnes_per_day": 2934.3230829931367,
+    "max_supply_rate_tonnes_per_day": 6515.905881030834,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 2661.0224741758007,
+      "energy": 413708.6853375122,
+      "leakage": 214.73631726745435,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.08870074913919336,
+      "energy": 0.2345287331845307,
+      "leakage": 0.051127694587489135,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.08870074913919336,
+      "energy": -0.023452873318453072,
+      "leakage": -0.5112769458748914,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.44602907005415104,
+    "absolute_contribution_percent": {
+      "throughput": 14.22784727679256,
+      "energy": 3.7619062185515597,
+      "leakage": 82.01024650465587,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2014",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2014,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2158.975445338377,
+    "demand_rate_tonnes_per_day": 9174.05780709281,
+    "max_supply_rate_tonnes_per_day": 5181.541068812106,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2158.975445338377,
+      "energy": 187138.32838563985,
+      "leakage": 51.14563778789934,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.0719658481779459,
+      "energy": 0.10608748774696136,
+      "leakage": 0.0121775328066427,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.0719658481779459,
+      "energy": -0.010608748774696137,
+      "leakage": -0.121775328066427,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.06041822866317723,
+    "absolute_contribution_percent": {
+      "throughput": 35.21696823291242,
+      "energy": 5.191462034403083,
+      "leakage": 59.59156973268449,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2015",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2015,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4241.938215325134,
+    "demand_rate_tonnes_per_day": 13523.998600943081,
+    "max_supply_rate_tonnes_per_day": 10180.65171678032,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 4241.938215325134,
+      "energy": 424964.16099263716,
+      "leakage": 553.3848902385266,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.1413979405108378,
+      "energy": 0.24090938831782152,
+      "leakage": 0.1317583071996492,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.1413979405108378,
+      "energy": -0.024090938831782153,
+      "leakage": -1.317583071996492,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -1.2002760703174364,
+    "absolute_contribution_percent": {
+      "throughput": 9.534125460545942,
+      "energy": 1.6243944745923955,
+      "leakage": 88.84148006486167,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2016",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2016,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4298.245460714902,
+    "demand_rate_tonnes_per_day": 10076.649678368367,
+    "max_supply_rate_tonnes_per_day": 10315.789105715767,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 4298.245460714902,
+      "energy": 269186.3461394416,
+      "leakage": 199.70058704340107,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.14327484869049673,
+      "energy": 0.15259996946680363,
+      "leakage": 0.0475477588198574,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.14327484869049673,
+      "energy": -0.015259996946680364,
+      "leakage": -0.475477588198574,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.34746273645475767,
+    "absolute_contribution_percent": {
+      "throughput": 22.598113387727956,
+      "energy": 2.4068923781759235,
+      "leakage": 74.99499423409611,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2017",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2017,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1570.7622002971461,
+    "demand_rate_tonnes_per_day": 8174.848260246506,
+    "max_supply_rate_tonnes_per_day": 3769.82928071315,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1570.7622002971461,
+      "energy": 506027.30710550206,
+      "leakage": 35.05541927194569,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.05235874000990487,
+      "energy": 0.28686355278089687,
+      "leakage": 0.008346528398082307,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.05235874000990487,
+      "energy": -0.028686355278089687,
+      "leakage": -0.08346528398082308,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.059792899249007894,
+    "absolute_contribution_percent": {
+      "throughput": 31.827013129881763,
+      "energy": 17.437413618270764,
+      "leakage": 50.73557325184748,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2018",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2018,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2498.4112178360533,
+    "demand_rate_tonnes_per_day": 2498.4112178360538,
+    "max_supply_rate_tonnes_per_day": 7827.868858338632,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 2498.4112178360533,
+      "energy": 124941.56432250411,
+      "leakage": 304.20108037467656,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.08328037392786844,
+      "energy": 0.07082855120323363,
+      "leakage": 0.07242882866063728,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.08328037392786844,
+      "energy": -0.007082855120323363,
+      "leakage": -0.7242882866063728,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.6480907677988277,
+    "absolute_contribution_percent": {
+      "throughput": 10.22282194625925,
+      "energy": 0.8694337375205591,
+      "leakage": 88.90774431622019,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_equipment_failure_2019",
+    "scenario_type": "equipment_failure",
+    "is_ood": false,
+    "seed": 2019,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4776.030900665326,
+    "demand_rate_tonnes_per_day": 16200.72311431609,
+    "max_supply_rate_tonnes_per_day": 11462.474161596783,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 4776.030900665326,
+      "energy": 724971.2860431504,
+      "leakage": 537.3538219536952,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.15920103002217753,
+      "energy": 0.41098145467298774,
+      "leakage": 0.12794138617945122,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.15920103002217753,
+      "energy": -0.04109814546729878,
+      "leakage": -1.279413861794512,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -1.1613109772396333,
+    "absolute_contribution_percent": {
+      "throughput": 10.75891243848137,
+      "energy": 2.7774402490049273,
+      "leakage": 86.4636473125137,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2000",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2000,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3147.570725746723,
+    "demand_rate_tonnes_per_day": 19048.946856213573,
+    "max_supply_rate_tonnes_per_day": 7554.169741792135,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3147.570725746723,
+      "energy": 584178.9596997976,
+      "leakage": 132.19797048136238,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10491902419155744,
+      "energy": 0.33116721071417093,
+      "leakage": 0.031475707257467234,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10491902419155744,
+      "energy": -0.033116721071417096,
+      "leakage": -0.31475707257467234,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.24295476945453198,
+    "absolute_contribution_percent": {
+      "throughput": 23.171530125545665,
+      "energy": 7.3138794978173465,
+      "leakage": 69.514590376637,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2001",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2001,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3923.6786737806474,
+    "demand_rate_tonnes_per_day": 8524.129945510878,
+    "max_supply_rate_tonnes_per_day": 9416.828817073554,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 3923.6786737806474,
+      "energy": 651190.6560730203,
+      "leakage": 164.7945042987872,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.13078928912602159,
+      "energy": 0.3691557007216668,
+      "leakage": 0.03923678673780647,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.13078928912602159,
+      "energy": -0.036915570072166684,
+      "leakage": -0.3923678673780647,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.29849414832420984,
+    "absolute_contribution_percent": {
+      "throughput": 23.352197477199386,
+      "energy": 6.591210091202447,
+      "leakage": 70.05659243159815,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2002",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2002,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4717.137664573834,
+    "demand_rate_tonnes_per_day": 11005.101873163123,
+    "max_supply_rate_tonnes_per_day": 11321.130394977201,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 4717.137664573834,
+      "energy": 621813.1190646646,
+      "leakage": 198.11978191210102,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.15723792215246113,
+      "energy": 0.3525017681772475,
+      "leakage": 0.04717137664573834,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.15723792215246113,
+      "energy": -0.03525017681772475,
+      "leakage": -0.4717137664573834,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.349726021122647,
+    "absolute_contribution_percent": {
+      "throughput": 23.673212969861467,
+      "energy": 5.307148120554136,
+      "leakage": 71.0196389095844,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2003",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2003,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1259.295942345076,
+    "demand_rate_tonnes_per_day": 19368.772358048605,
+    "max_supply_rate_tonnes_per_day": 3022.3102616281826,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1259.295942345076,
+      "energy": 532510.8273597851,
+      "leakage": 52.89042957849319,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.04197653141150253,
+      "energy": 0.30187688625838155,
+      "leakage": 0.01259295942345076,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.04197653141150253,
+      "energy": -0.030187688625838156,
+      "leakage": -0.12592959423450759,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.11414075144884321,
+    "absolute_contribution_percent": {
+      "throughput": 21.19022825917081,
+      "energy": 15.239086963316764,
+      "leakage": 63.57068477751242,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2004",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2004,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3575.5685532766415,
+    "demand_rate_tonnes_per_day": 16213.526553203796,
+    "max_supply_rate_tonnes_per_day": 8581.364527863938,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3575.5685532766415,
+      "energy": 532432.228343495,
+      "leakage": 150.17387923761893,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.11918561844255472,
+      "energy": 0.301832328992911,
+      "leakage": 0.03575568553276641,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.11918561844255472,
+      "energy": -0.030183232899291104,
+      "leakage": -0.3575568553276641,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.2685544697844005,
+    "absolute_contribution_percent": {
+      "throughput": 23.51145678241521,
+      "energy": 5.954172870339174,
+      "leakage": 70.53437034724561,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2005",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2005,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3089.208678810524,
+    "demand_rate_tonnes_per_day": 3375.235145989367,
+    "max_supply_rate_tonnes_per_day": 7580.008463436889,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 3089.208678810524,
+      "energy": 292749.82776688464,
+      "leakage": 129.74676451004203,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10297362262701747,
+      "energy": 0.1659579522488008,
+      "leakage": 0.030892086788105243,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10297362262701747,
+      "energy": -0.01659579522488008,
+      "leakage": -0.30892086788105244,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.22254304047891504,
+    "absolute_contribution_percent": {
+      "throughput": 24.031728619209396,
+      "energy": 3.873085523162398,
+      "leakage": 72.0951858576282,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2006",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2006,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3281.907302753083,
+    "demand_rate_tonnes_per_day": 3281.907302753083,
+    "max_supply_rate_tonnes_per_day": 8990.542090010047,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 3281.907302753083,
+      "energy": 487948.09259108687,
+      "leakage": 137.8401067156295,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.10939691009176944,
+      "energy": 0.2766145649609336,
+      "leakage": 0.032819073027530836,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.10939691009176944,
+      "energy": -0.027661456496093362,
+      "leakage": -0.3281907302753084,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.2464552766796323,
+    "absolute_contribution_percent": {
+      "throughput": 23.513621161083705,
+      "energy": 5.94551535566517,
+      "leakage": 70.54086348325113,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2007",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2007,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1765.0616587690854,
+    "demand_rate_tonnes_per_day": 13908.229213407843,
+    "max_supply_rate_tonnes_per_day": 4236.147981045805,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1765.0616587690854,
+      "energy": 611687.3889023397,
+      "leakage": 74.13258966830159,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.05883538862563618,
+      "energy": 0.3467615583346597,
+      "leakage": 0.017650616587690855,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.05883538862563618,
+      "energy": -0.03467615583346597,
+      "leakage": -0.17650616587690854,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.15234693308473835,
+    "absolute_contribution_percent": {
+      "throughput": 21.789455422172598,
+      "energy": 12.84217831130961,
+      "leakage": 65.3683662665178,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2008",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2008,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 5631.350340737452,
+    "demand_rate_tonnes_per_day": 11790.207592691728,
+    "max_supply_rate_tonnes_per_day": 13515.240817769884,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 5631.350340737452,
+      "energy": 566341.2203116259,
+      "leakage": 236.516714310973,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.18771167802458172,
+      "energy": 0.32105511355534344,
+      "leakage": 0.056313503407374524,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.18771167802458172,
+      "energy": -0.03210551135553435,
+      "leakage": -0.5631350340737452,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.40752886740469785,
+    "absolute_contribution_percent": {
+      "throughput": 23.974857264792405,
+      "energy": 4.100570940830376,
+      "leakage": 71.92457179437723,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2009",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2009,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2156.2066425832127,
+    "demand_rate_tonnes_per_day": 18080.77802933161,
+    "max_supply_rate_tonnes_per_day": 5174.895942199711,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2156.2066425832127,
+      "energy": 425681.3326424947,
+      "leakage": 90.56067898849494,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.07187355475277375,
+      "energy": 0.24131594821003102,
+      "leakage": 0.021562066425832128,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.07187355475277375,
+      "energy": -0.024131594821003105,
+      "leakage": -0.21562066425832127,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.1678787043265506,
+    "absolute_contribution_percent": {
+      "throughput": 23.0640568151067,
+      "energy": 7.743772739573187,
+      "leakage": 69.19217044532012,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2010",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2010,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1407.7568474483573,
+    "demand_rate_tonnes_per_day": 10759.745211702268,
+    "max_supply_rate_tonnes_per_day": 3378.6164338760573,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1407.7568474483573,
+      "energy": 439726.65204648173,
+      "leakage": 59.12578759283101,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.04692522824827858,
+      "energy": 0.24927814741864043,
+      "leakage": 0.014077568474483574,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.04692522824827858,
+      "energy": -0.024927814741864045,
+      "leakage": -0.14077568474483573,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.1187782712384212,
+    "absolute_contribution_percent": {
+      "throughput": 22.06909139143533,
+      "energy": 11.723634434258672,
+      "leakage": 66.20727417430598,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2011",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2011,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 3540.8338433310128,
+    "demand_rate_tonnes_per_day": 18349.272901242213,
+    "max_supply_rate_tonnes_per_day": 8498.00122399443,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 3540.8338433310128,
+      "energy": 376401.1551206944,
+      "leakage": 148.71502141990254,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.11802779477770042,
+      "energy": 0.21337933963758188,
+      "leakage": 0.03540833843331013,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.11802779477770042,
+      "energy": -0.021337933963758188,
+      "leakage": -0.35408338433310127,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.257393523519159,
+    "absolute_contribution_percent": {
+      "throughput": 23.91893949151075,
+      "energy": 4.324242033957013,
+      "leakage": 71.75681847453225,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2012",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2012,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1167.2836321339887,
+    "demand_rate_tonnes_per_day": 8566.838141645629,
+    "max_supply_rate_tonnes_per_day": 2801.4807171215725,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1167.2836321339887,
+      "energy": 603379.9158615767,
+      "leakage": 49.02591254962752,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.03890945440446629,
+      "energy": 0.34205210649749246,
+      "leakage": 0.011672836321339886,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.03890945440446629,
+      "energy": -0.03420521064974925,
+      "leakage": -0.11672836321339886,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.11202411945868182,
+    "absolute_contribution_percent": {
+      "throughput": 20.495592995712823,
+      "energy": 18.017628017148716,
+      "leakage": 61.48677898713846,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2013",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2013,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2868.5248326548062,
+    "demand_rate_tonnes_per_day": 2934.3230829931367,
+    "max_supply_rate_tonnes_per_day": 7239.895423367593,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 2868.5248326548062,
+      "energy": 569385.7162366387,
+      "leakage": 120.47804297150186,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.09561749442182688,
+      "energy": 0.3227810182747385,
+      "leakage": 0.028685248326548063,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.09561749442182688,
+      "energy": -0.03227810182747385,
+      "leakage": -0.28685248326548063,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.2235130906711276,
+    "absolute_contribution_percent": {
+      "throughput": 23.054354955348057,
+      "energy": 7.782580178607791,
+      "leakage": 69.16306486604417,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2014",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2014,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2398.86160593153,
+    "demand_rate_tonnes_per_day": 9174.05780709281,
+    "max_supply_rate_tonnes_per_day": 5757.2678542356725,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 2398.86160593153,
+      "energy": 431392.74521977204,
+      "leakage": 100.75218744912428,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.079962053531051,
+      "energy": 0.24455371044204766,
+      "leakage": 0.023988616059315303,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.079962053531051,
+      "energy": -0.02445537104420477,
+      "leakage": -0.23988616059315304,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.1843794781063068,
+    "absolute_contribution_percent": {
+      "throughput": 23.22428722080813,
+      "energy": 7.102851116767472,
+      "leakage": 69.6728616624244,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2015",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2015,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4713.264683694592,
+    "demand_rate_tonnes_per_day": 13523.998600943081,
+    "max_supply_rate_tonnes_per_day": 11311.835240867022,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 4713.264683694592,
+      "energy": 520803.29449919035,
+      "leakage": 197.95711671517287,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.15710882278981975,
+      "energy": 0.29523996286802173,
+      "leakage": 0.04713264683694592,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.15710882278981975,
+      "energy": -0.029523996286802176,
+      "leakage": -0.47132646836945924,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3437416418664417,
+    "absolute_contribution_percent": {
+      "throughput": 23.878198208835926,
+      "energy": 4.487207164656313,
+      "leakage": 71.63459462650778,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2016",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2016,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 4775.828289683224,
+    "demand_rate_tonnes_per_day": 10076.649678368367,
+    "max_supply_rate_tonnes_per_day": 11461.98789523974,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 4775.828289683224,
+      "energy": 359734.10135299194,
+      "leakage": 200.58478816669543,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.15919427632277414,
+      "energy": 0.2039308964586122,
+      "leakage": 0.047758282896832246,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.15919427632277414,
+      "energy": -0.020393089645861222,
+      "leakage": -0.4775828289683225,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3387816422914096,
+    "absolute_contribution_percent": {
+      "throughput": 24.224208211092957,
+      "energy": 3.1031671556281593,
+      "leakage": 72.67262463327889,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2017",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2017,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 1745.2913336634956,
+    "demand_rate_tonnes_per_day": 8174.848260246506,
+    "max_supply_rate_tonnes_per_day": 4188.699200792389,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 1745.2913336634956,
+      "energy": 559108.2819101441,
+      "leakage": 73.30223601386682,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.058176377788783186,
+      "energy": 0.31695480833908396,
+      "leakage": 0.017452913336634956,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.058176377788783186,
+      "energy": -0.0316954808339084,
+      "leakage": -0.17452913336634956,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.14804823641147477,
+    "absolute_contribution_percent": {
+      "throughput": 22.003086051656897,
+      "energy": 11.987655793372404,
+      "leakage": 66.0092581549707,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2018",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2018,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 2498.4112178360533,
+    "demand_rate_tonnes_per_day": 2498.4112178360538,
+    "max_supply_rate_tonnes_per_day": 8697.6320648207,
+    "demand_shortfall_at_full_capacity": false,
+    "raw_values": {
+      "throughput": 2498.4112178360533,
+      "energy": 302582.85759735515,
+      "leakage": 104.93327114911425,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.08328037392786844,
+      "energy": 0.17153223219804714,
+      "leakage": 0.024984112178360534,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.08328037392786844,
+      "energy": -0.017153223219804715,
+      "leakage": -0.24984112178360535,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.1837139710755416,
+    "absolute_contribution_percent": {
+      "throughput": 23.775730712728794,
+      "energy": 4.8970771490848195,
+      "leakage": 71.32719213818639,
+      "violation": 0.0
+    }
+  },
+  {
+    "scenario_id": "validation_energy_price_spike_2019",
+    "scenario_type": "energy_price_spike",
+    "is_ood": false,
+    "seed": 2019,
+    "reset_valid": true,
+    "valid_steps": 168,
+    "invalid_steps": 0,
+    "invalid_reasons": {},
+    "mean_delivery_rate_tonnes_per_day": 5306.701000739252,
+    "demand_rate_tonnes_per_day": 16200.72311431609,
+    "max_supply_rate_tonnes_per_day": 12736.082401774203,
+    "demand_shortfall_at_full_capacity": true,
+    "raw_values": {
+      "throughput": 5306.701000739252,
+      "energy": 524518.6692530591,
+      "leakage": 222.88144203104858,
+      "violation": 0.0
+    },
+    "normalization_bounds": {
+      "throughput": [
+        0.0,
+        30000.0
+      ],
+      "energy": [
+        0.0,
+        1764000.0
+      ],
+      "leakage": [
+        0.0,
+        4200.0
+      ],
+      "violation": [
+        0.0,
+        1.0
+      ]
+    },
+    "normalized_values": {
+      "throughput": 0.17689003335797507,
+      "energy": 0.2973461843838203,
+      "leakage": 0.05306701000739252,
+      "violation": 0.0
+    },
+    "weighted_contributions": {
+      "throughput": 0.17689003335797507,
+      "energy": -0.029734618438382033,
+      "leakage": -0.5306701000739252,
+      "violation": -0.0
+    },
+    "total_reward_per_step_equivalent": -0.3835146851543322,
+    "absolute_contribution_percent": {
+      "throughput": 23.991766238571653,
+      "energy": 4.0329350457133675,
+      "leakage": 71.97529871571497,
+      "violation": 0.0
+    }
+  }
+]

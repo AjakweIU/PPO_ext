@@ -1,0 +1,2602 @@
+[
+  {
+    "scenario": {
+      "scenario_id": "train_normal_10",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 10,
+      "parameters": {
+        "source_capacity": 3071.311676104611,
+        "sink_injection_rate": 4860.001492076031,
+        "pipeline_length_km": 62.02821710210233,
+        "pipeline_diameter_m": 0.40304911606975086,
+        "compressor_power_kw": 7066.6062567866,
+        "compressor_efficiency": 0.8570665534293479,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_11",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 11,
+      "parameters": {
+        "source_capacity": 2535.707990794184,
+        "sink_injection_rate": 6037.951474724464,
+        "pipeline_length_km": 93.17895256213563,
+        "pipeline_diameter_m": 0.5328250350498867,
+        "compressor_power_kw": 5539.2063653113555,
+        "compressor_efficiency": 0.8263600277504866,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_12",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 12,
+      "parameters": {
+        "source_capacity": 2635.5680540984663,
+        "sink_injection_rate": 6917.252523915298,
+        "pipeline_length_km": 69.97694240123542,
+        "pipeline_diameter_m": 0.3713001764626839,
+        "compressor_power_kw": 3054.3022154503396,
+        "compressor_efficiency": 0.7987180839682374,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_13",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 13,
+      "parameters": {
+        "source_capacity": 1665.538212719631,
+        "sink_injection_rate": 7167.321936680833,
+        "pipeline_length_km": 71.56737262144998,
+        "pipeline_diameter_m": 0.724668080694965,
+        "compressor_power_kw": 3928.620869368677,
+        "compressor_efficiency": 0.7799726191655109,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_14",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 14,
+      "parameters": {
+        "source_capacity": 980.7284196574506,
+        "sink_injection_rate": 7323.269715881699,
+        "pipeline_length_km": 68.6837818282848,
+        "pipeline_diameter_m": 0.770176194783059,
+        "compressor_power_kw": 4355.576132801616,
+        "compressor_efficiency": 0.783250816746295,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_15",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 15,
+      "parameters": {
+        "source_capacity": 4843.589636984553,
+        "sink_injection_rate": 1104.8922441292702,
+        "pipeline_length_km": 76.2392457817188,
+        "pipeline_diameter_m": 0.37900636238237406,
+        "compressor_power_kw": 7931.697258314117,
+        "compressor_efficiency": 0.7521944850470369,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_16",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 16,
+      "parameters": {
+        "source_capacity": 2126.852487113338,
+        "sink_injection_rate": 5324.325990411646,
+        "pipeline_length_km": 47.52573639450983,
+        "pipeline_diameter_m": 0.5233796268919616,
+        "compressor_power_kw": 5047.578649749481,
+        "compressor_efficiency": 0.8355017574312552,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_17",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 17,
+      "parameters": {
+        "source_capacity": 2848.9275937062193,
+        "sink_injection_rate": 8260.216994068112,
+        "pipeline_length_km": 96.44452968914891,
+        "pipeline_diameter_m": 0.44481268888223274,
+        "compressor_power_kw": 6830.537188989763,
+        "compressor_efficiency": 0.8415485826896436,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_18",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 18,
+      "parameters": {
+        "source_capacity": 1315.6918849994959,
+        "sink_injection_rate": 6952.8749364571995,
+        "pipeline_length_km": 40.110373285075006,
+        "pipeline_diameter_m": 0.3989698020812602,
+        "compressor_power_kw": 5447.5766952405775,
+        "compressor_efficiency": 0.8142245082839328,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_19",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 19,
+      "parameters": {
+        "source_capacity": 3547.0662206012166,
+        "sink_injection_rate": 8064.202204783997,
+        "pipeline_length_km": 56.84195414827734,
+        "pipeline_diameter_m": 0.55574585124663,
+        "compressor_power_kw": 4967.673314629825,
+        "compressor_efficiency": 0.8795862018227268,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_20",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 20,
+      "parameters": {
+        "source_capacity": 4575.378542785344,
+        "sink_injection_rate": 7176.287413240323,
+        "pipeline_length_km": 78.98583307263797,
+        "pipeline_diameter_m": 0.7523081189066367,
+        "compressor_power_kw": 4299.137237444885,
+        "compressor_efficiency": 0.8326443630487786,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_21",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 21,
+      "parameters": {
+        "source_capacity": 1242.272659249391,
+        "sink_injection_rate": 7207.902317958106,
+        "pipeline_length_km": 67.14999463642485,
+        "pipeline_diameter_m": 0.5395502360287256,
+        "compressor_power_kw": 4080.071739469514,
+        "compressor_efficiency": 0.853042336566032,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_22",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 22,
+      "parameters": {
+        "source_capacity": 4811.942209177728,
+        "sink_injection_rate": 2263.317310687553,
+        "pipeline_length_km": 12.125453242494299,
+        "pipeline_diameter_m": 0.7993153268364572,
+        "compressor_power_kw": 3921.2682285142655,
+        "compressor_efficiency": 0.7656769682179922,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_23",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 23,
+      "parameters": {
+        "source_capacity": 4661.893632316754,
+        "sink_injection_rate": 9537.452001938595,
+        "pipeline_length_km": 90.31900096437214,
+        "pipeline_diameter_m": 0.3417753384153418,
+        "compressor_power_kw": 5960.136134428676,
+        "compressor_efficiency": 0.805087163070545,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_24",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 24,
+      "parameters": {
+        "source_capacity": 3705.5434452211334,
+        "sink_injection_rate": 8558.197626806861,
+        "pipeline_length_km": 26.43326982590657,
+        "pipeline_diameter_m": 0.7991413137589753,
+        "compressor_power_kw": 3970.477393618737,
+        "compressor_efficiency": 0.8372152749345798,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_25",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 25,
+      "parameters": {
+        "source_capacity": 2196.330360756737,
+        "sink_injection_rate": 9341.096569536887,
+        "pipeline_length_km": 85.9102065219018,
+        "pipeline_diameter_m": 0.4070228849760217,
+        "compressor_power_kw": 7358.540561227188,
+        "compressor_efficiency": 0.8327400269475899,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_26",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 26,
+      "parameters": {
+        "source_capacity": 3862.810698004776,
+        "sink_injection_rate": 2824.773691113187,
+        "pipeline_length_km": 28.464278868743826,
+        "pipeline_diameter_m": 0.6003785630465089,
+        "compressor_power_kw": 3283.786435718553,
+        "compressor_efficiency": 0.8509227180753064,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_27",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 27,
+      "parameters": {
+        "source_capacity": 3418.237489904974,
+        "sink_injection_rate": 7312.325868718073,
+        "pipeline_length_km": 96.13423023922611,
+        "pipeline_diameter_m": 0.3982015545440801,
+        "compressor_power_kw": 3326.8461769224996,
+        "compressor_efficiency": 0.8571534658979124,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_28",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 28,
+      "parameters": {
+        "source_capacity": 1008.3072657927337,
+        "sink_injection_rate": 2177.6695021308924,
+        "pipeline_length_km": 63.7534801221509,
+        "pipeline_diameter_m": 0.3890227117628105,
+        "compressor_power_kw": 3662.4835967248064,
+        "compressor_efficiency": 0.8103328122889657,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_normal_29",
+      "scenario_type": "normal",
+      "split": "train",
+      "is_ood": false,
+      "seed": 29,
+      "parameters": {
+        "source_capacity": 2966.535742152646,
+        "sink_injection_rate": 4112.486410042493,
+        "pipeline_length_km": 86.03659797099648,
+        "pipeline_diameter_m": 0.4442987177026716,
+        "compressor_power_kw": 5551.725131543748,
+        "compressor_efficiency": 0.7946958562812135,
+        "base_energy_price": 0.08,
+        "peak_price_multiplier": 2.0,
+        "leakage_rate": 0.005,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.0,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_10",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 10,
+      "parameters": {
+        "source_capacity": 3071.311676104611,
+        "sink_injection_rate": 7290.002238114047,
+        "pipeline_length_km": 62.02821710210233,
+        "pipeline_diameter_m": 0.40304911606975086,
+        "compressor_power_kw": 7066.6062567866,
+        "compressor_efficiency": 0.8570665534293479,
+        "base_energy_price": 0.0957430773730823,
+        "peak_price_multiplier": 1.7403443347782295,
+        "leakage_rate": 0.010892717833158566,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_11",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 11,
+      "parameters": {
+        "source_capacity": 2535.707990794184,
+        "sink_injection_rate": 9056.927212086695,
+        "pipeline_length_km": 93.17895256213563,
+        "pipeline_diameter_m": 0.5328250350498867,
+        "compressor_power_kw": 5539.2063653113555,
+        "compressor_efficiency": 0.8263600277504866,
+        "base_energy_price": 0.06292622406984136,
+        "peak_price_multiplier": 2.2678629585627084,
+        "leakage_rate": 0.012967771684119236,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_12",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 12,
+      "parameters": {
+        "source_capacity": 2635.5680540984663,
+        "sink_injection_rate": 10375.878785872948,
+        "pipeline_length_km": 69.97694240123542,
+        "pipeline_diameter_m": 0.3713001764626839,
+        "compressor_power_kw": 3054.3022154503396,
+        "compressor_efficiency": 0.7987180839682374,
+        "base_energy_price": 0.0691833697634832,
+        "peak_price_multiplier": 2.7155220783526257,
+        "leakage_rate": 0.014121260407735006,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_13",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 13,
+      "parameters": {
+        "source_capacity": 1665.538212719631,
+        "sink_injection_rate": 10750.982905021248,
+        "pipeline_length_km": 71.56737262144998,
+        "pipeline_diameter_m": 0.724668080694965,
+        "compressor_power_kw": 3928.620869368677,
+        "compressor_efficiency": 0.7799726191655109,
+        "base_energy_price": 0.060301194271789246,
+        "peak_price_multiplier": 1.837744403343169,
+        "leakage_rate": 0.014946448442042685,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_14",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 14,
+      "parameters": {
+        "source_capacity": 980.7284196574506,
+        "sink_injection_rate": 10984.904573822549,
+        "pipeline_length_km": 68.6837818282848,
+        "pipeline_diameter_m": 0.770176194783059,
+        "compressor_power_kw": 4355.576132801616,
+        "compressor_efficiency": 0.783250816746295,
+        "base_energy_price": 0.10138415549012877,
+        "peak_price_multiplier": 2.4876750273601136,
+        "leakage_rate": 0.006756771503878746,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_15",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 15,
+      "parameters": {
+        "source_capacity": 4843.589636984553,
+        "sink_injection_rate": 1657.3383661939054,
+        "pipeline_length_km": 76.2392457817188,
+        "pipeline_diameter_m": 0.37900636238237406,
+        "compressor_power_kw": 7931.697258314117,
+        "compressor_efficiency": 0.7521944850470369,
+        "base_energy_price": 0.11156438876942698,
+        "peak_price_multiplier": 2.522025996602122,
+        "leakage_rate": 0.017289505267148973,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_16",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 16,
+      "parameters": {
+        "source_capacity": 2126.852487113338,
+        "sink_injection_rate": 7986.488985617469,
+        "pipeline_length_km": 47.52573639450983,
+        "pipeline_diameter_m": 0.5233796268919616,
+        "compressor_power_kw": 5047.578649749481,
+        "compressor_efficiency": 0.8355017574312552,
+        "base_energy_price": 0.06811987673230548,
+        "peak_price_multiplier": 2.452493886155226,
+        "leakage_rate": 0.0011924390989195546,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_17",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 17,
+      "parameters": {
+        "source_capacity": 2848.9275937062193,
+        "sink_injection_rate": 12390.325491102169,
+        "pipeline_length_km": 96.44452968914891,
+        "pipeline_diameter_m": 0.44481268888223274,
+        "compressor_power_kw": 6830.537188989763,
+        "compressor_efficiency": 0.8415485826896436,
+        "base_energy_price": 0.09629681400566813,
+        "peak_price_multiplier": 1.6652430733758177,
+        "leakage_rate": 0.0015117987970200094,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_18",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 18,
+      "parameters": {
+        "source_capacity": 1315.6918849994959,
+        "sink_injection_rate": 10429.3124046858,
+        "pipeline_length_km": 40.110373285075006,
+        "pipeline_diameter_m": 0.3989698020812602,
+        "compressor_power_kw": 5447.5766952405775,
+        "compressor_efficiency": 0.8142245082839328,
+        "base_energy_price": 0.08358407781037003,
+        "peak_price_multiplier": 2.187496672051215,
+        "leakage_rate": 0.006026075748549705,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_19",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 19,
+      "parameters": {
+        "source_capacity": 3547.0662206012166,
+        "sink_injection_rate": 12096.303307175996,
+        "pipeline_length_km": 56.84195414827734,
+        "pipeline_diameter_m": 0.55574585124663,
+        "compressor_power_kw": 4967.673314629825,
+        "compressor_efficiency": 0.8795862018227268,
+        "base_energy_price": 0.07025554620421995,
+        "peak_price_multiplier": 1.7223896897770419,
+        "leakage_rate": 0.005960492916745607,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_20",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 20,
+      "parameters": {
+        "source_capacity": 4575.378542785344,
+        "sink_injection_rate": 10764.431119860485,
+        "pipeline_length_km": 78.98583307263797,
+        "pipeline_diameter_m": 0.7523081189066367,
+        "compressor_power_kw": 4299.137237444885,
+        "compressor_efficiency": 0.8326443630487786,
+        "base_energy_price": 0.11334619862665352,
+        "peak_price_multiplier": 2.808195561104566,
+        "leakage_rate": 0.011885872715735213,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_21",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 21,
+      "parameters": {
+        "source_capacity": 1242.272659249391,
+        "sink_injection_rate": 10811.85347693716,
+        "pipeline_length_km": 67.14999463642485,
+        "pipeline_diameter_m": 0.5395502360287256,
+        "compressor_power_kw": 4080.071739469514,
+        "compressor_efficiency": 0.853042336566032,
+        "base_energy_price": 0.10654980113673992,
+        "peak_price_multiplier": 2.2686843594563895,
+        "leakage_rate": 0.010596598915930223,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_22",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 22,
+      "parameters": {
+        "source_capacity": 4811.942209177728,
+        "sink_injection_rate": 3394.9759660313293,
+        "pipeline_length_km": 12.125453242494299,
+        "pipeline_diameter_m": 0.7993153268364572,
+        "compressor_power_kw": 3921.2682285142655,
+        "compressor_efficiency": 0.7656769682179922,
+        "base_energy_price": 0.09559948683905437,
+        "peak_price_multiplier": 2.01846725634385,
+        "leakage_rate": 0.017901467856120255,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_23",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 23,
+      "parameters": {
+        "source_capacity": 4661.893632316754,
+        "sink_injection_rate": 14306.178002907891,
+        "pipeline_length_km": 90.31900096437214,
+        "pipeline_diameter_m": 0.3417753384153418,
+        "compressor_power_kw": 5960.136134428676,
+        "compressor_efficiency": 0.805087163070545,
+        "base_energy_price": 0.08710616070826045,
+        "peak_price_multiplier": 1.695454411871221,
+        "leakage_rate": 0.004647945993246561,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_24",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 24,
+      "parameters": {
+        "source_capacity": 3705.5434452211334,
+        "sink_injection_rate": 12837.296440210292,
+        "pipeline_length_km": 26.43326982590657,
+        "pipeline_diameter_m": 0.7991413137589753,
+        "compressor_power_kw": 3970.477393618737,
+        "compressor_efficiency": 0.8372152749345798,
+        "base_energy_price": 0.05642506293514347,
+        "peak_price_multiplier": 2.636605471358557,
+        "leakage_rate": 0.0038747048923469312,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_25",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 25,
+      "parameters": {
+        "source_capacity": 2196.330360756737,
+        "sink_injection_rate": 14011.64485430533,
+        "pipeline_length_km": 85.9102065219018,
+        "pipeline_diameter_m": 0.4070228849760217,
+        "compressor_power_kw": 7358.540561227188,
+        "compressor_efficiency": 0.8327400269475899,
+        "base_energy_price": 0.05296744883107406,
+        "peak_price_multiplier": 2.9294580901866882,
+        "leakage_rate": 0.005857989696112876,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_26",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 26,
+      "parameters": {
+        "source_capacity": 3862.810698004776,
+        "sink_injection_rate": 4237.16053666978,
+        "pipeline_length_km": 28.464278868743826,
+        "pipeline_diameter_m": 0.6003785630465089,
+        "compressor_power_kw": 3283.786435718553,
+        "compressor_efficiency": 0.8509227180753064,
+        "base_energy_price": 0.10350878032600708,
+        "peak_price_multiplier": 1.5626044205967846,
+        "leakage_rate": 0.013984503923690175,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_27",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 27,
+      "parameters": {
+        "source_capacity": 3418.237489904974,
+        "sink_injection_rate": 10968.48880307711,
+        "pipeline_length_km": 96.13423023922611,
+        "pipeline_diameter_m": 0.3982015545440801,
+        "compressor_power_kw": 3326.8461769224996,
+        "compressor_efficiency": 0.8571534658979124,
+        "base_energy_price": 0.07331466561335244,
+        "peak_price_multiplier": 2.058562079453675,
+        "leakage_rate": 0.01648245063912222,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_28",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 28,
+      "parameters": {
+        "source_capacity": 1008.3072657927337,
+        "sink_injection_rate": 3266.5042531963386,
+        "pipeline_length_km": 63.7534801221509,
+        "pipeline_diameter_m": 0.3890227117628105,
+        "compressor_power_kw": 3662.4835967248064,
+        "compressor_efficiency": 0.8103328122889657,
+        "base_energy_price": 0.0792297578958013,
+        "peak_price_multiplier": 1.819993717346146,
+        "leakage_rate": 0.008441866979707814,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_high_demand_29",
+      "scenario_type": "high_demand",
+      "split": "train",
+      "is_ood": false,
+      "seed": 29,
+      "parameters": {
+        "source_capacity": 2966.535742152646,
+        "sink_injection_rate": 6168.729615063739,
+        "pipeline_length_km": 86.03659797099648,
+        "pipeline_diameter_m": 0.4442987177026716,
+        "compressor_power_kw": 5551.725131543748,
+        "compressor_efficiency": 0.7946958562812135,
+        "base_energy_price": 0.07908457496244944,
+        "peak_price_multiplier": 2.960788194451601,
+        "leakage_rate": 0.002970921092487768,
+        "failure_probability": 0.01,
+        "demand_multiplier": 1.5,
+        "supply_multiplier": 1.0,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_10",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 10,
+      "parameters": {
+        "source_capacity": 2149.9181732732272,
+        "sink_injection_rate": 4860.001492076031,
+        "pipeline_length_km": 62.02821710210233,
+        "pipeline_diameter_m": 0.40304911606975086,
+        "compressor_power_kw": 7066.6062567866,
+        "compressor_efficiency": 0.8570665534293479,
+        "base_energy_price": 0.0957430773730823,
+        "peak_price_multiplier": 1.7403443347782295,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.016388640581104657,
+        "demand_multiplier": 0.8999986706745602,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_11",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 11,
+      "parameters": {
+        "source_capacity": 1774.9955935559285,
+        "sink_injection_rate": 6037.951474724464,
+        "pipeline_length_km": 93.17895256213563,
+        "pipeline_diameter_m": 0.5328250350498867,
+        "compressor_power_kw": 5539.2063653113555,
+        "compressor_efficiency": 0.8263600277504866,
+        "base_energy_price": 0.06292622406984136,
+        "peak_price_multiplier": 2.2678629585627084,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.03964884362599763,
+        "demand_multiplier": 0.8376493824916874,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_12",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 12,
+      "parameters": {
+        "source_capacity": 1844.8976378689263,
+        "sink_injection_rate": 6917.252523915298,
+        "pipeline_length_km": 69.97694240123542,
+        "pipeline_diameter_m": 0.3713001764626839,
+        "compressor_power_kw": 3054.3022154503396,
+        "compressor_efficiency": 0.7987180839682374,
+        "base_energy_price": 0.0691833697634832,
+        "peak_price_multiplier": 2.7155220783526257,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.03007285193638666,
+        "demand_multiplier": 1.0232760191013393,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_13",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 13,
+      "parameters": {
+        "source_capacity": 1165.8767489037416,
+        "sink_injection_rate": 7167.321936680833,
+        "pipeline_length_km": 71.56737262144998,
+        "pipeline_diameter_m": 0.724668080694965,
+        "compressor_power_kw": 3928.620869368677,
+        "compressor_efficiency": 0.7799726191655109,
+        "base_energy_price": 0.060301194271789246,
+        "peak_price_multiplier": 1.837744403343169,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.006510651137987844,
+        "demand_multiplier": 1.0125259007388072,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_14",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 14,
+      "parameters": {
+        "source_capacity": 686.5098937602154,
+        "sink_injection_rate": 7323.269715881699,
+        "pipeline_length_km": 68.6837818282848,
+        "pipeline_diameter_m": 0.770176194783059,
+        "compressor_power_kw": 4355.576132801616,
+        "compressor_efficiency": 0.783250816746295,
+        "base_energy_price": 0.10138415549012877,
+        "peak_price_multiplier": 2.4876750273601136,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.034211656403847775,
+        "demand_multiplier": 0.9586694580132056,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_15",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 15,
+      "parameters": {
+        "source_capacity": 3390.512745889187,
+        "sink_injection_rate": 1104.8922441292702,
+        "pipeline_length_km": 76.2392457817188,
+        "pipeline_diameter_m": 0.37900636238237406,
+        "compressor_power_kw": 7931.697258314117,
+        "compressor_efficiency": 0.7521944850470369,
+        "base_energy_price": 0.11156438876942698,
+        "peak_price_multiplier": 2.522025996602122,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.04999081170830597,
+        "demand_multiplier": 0.8958860728655155,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_16",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 16,
+      "parameters": {
+        "source_capacity": 1488.7967409793366,
+        "sink_injection_rate": 5324.325990411646,
+        "pipeline_length_km": 47.52573639450983,
+        "pipeline_diameter_m": 0.5233796268919616,
+        "compressor_power_kw": 5047.578649749481,
+        "compressor_efficiency": 0.8355017574312552,
+        "base_energy_price": 0.06811987673230548,
+        "peak_price_multiplier": 2.452493886155226,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.015102185239982292,
+        "demand_multiplier": 0.9340253402790876,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_17",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 17,
+      "parameters": {
+        "source_capacity": 1994.2493155943534,
+        "sink_injection_rate": 8260.216994068112,
+        "pipeline_length_km": 96.44452968914891,
+        "pipeline_diameter_m": 0.44481268888223274,
+        "compressor_power_kw": 6830.537188989763,
+        "compressor_efficiency": 0.8415485826896436,
+        "base_energy_price": 0.09629681400566813,
+        "peak_price_multiplier": 1.6652430733758177,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.019208555227214874,
+        "demand_multiplier": 1.0985580784665538,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_18",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 18,
+      "parameters": {
+        "source_capacity": 920.9843194996471,
+        "sink_injection_rate": 6952.8749364571995,
+        "pipeline_length_km": 40.110373285075006,
+        "pipeline_diameter_m": 0.3989698020812602,
+        "compressor_power_kw": 5447.5766952405775,
+        "compressor_efficiency": 0.8142245082839328,
+        "base_energy_price": 0.08358407781037003,
+        "peak_price_multiplier": 2.187496672051215,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.012690046764624707,
+        "demand_multiplier": 1.076752040141821,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_19",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 19,
+      "parameters": {
+        "source_capacity": 2482.9463544208515,
+        "sink_injection_rate": 8064.202204783997,
+        "pipeline_length_km": 56.84195414827734,
+        "pipeline_diameter_m": 0.55574585124663,
+        "compressor_power_kw": 4967.673314629825,
+        "compressor_efficiency": 0.8795862018227268,
+        "base_energy_price": 0.07025554620421995,
+        "peak_price_multiplier": 1.7223896897770419,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.013021859680066451,
+        "demand_multiplier": 0.9309468059778443,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_20",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 20,
+      "parameters": {
+        "source_capacity": 3202.7649799497403,
+        "sink_injection_rate": 7176.287413240323,
+        "pipeline_length_km": 78.98583307263797,
+        "pipeline_diameter_m": 0.7523081189066367,
+        "compressor_power_kw": 4299.137237444885,
+        "compressor_efficiency": 0.8326443630487786,
+        "base_energy_price": 0.11334619862665352,
+        "peak_price_multiplier": 2.808195561104566,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.008468904356278496,
+        "demand_multiplier": 0.9646092248163827,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_21",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 21,
+      "parameters": {
+        "source_capacity": 869.5908614745736,
+        "sink_injection_rate": 7207.902317958106,
+        "pipeline_length_km": 67.14999463642485,
+        "pipeline_diameter_m": 0.5395502360287256,
+        "compressor_power_kw": 4080.071739469514,
+        "compressor_efficiency": 0.853042336566032,
+        "base_energy_price": 0.10654980113673992,
+        "peak_price_multiplier": 2.2686843594563895,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.011802818174810527,
+        "demand_multiplier": 0.8012722522441189,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_22",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 22,
+      "parameters": {
+        "source_capacity": 3368.3595464244095,
+        "sink_injection_rate": 2263.317310687553,
+        "pipeline_length_km": 12.125453242494299,
+        "pipeline_diameter_m": 0.7993153268364572,
+        "compressor_power_kw": 3921.2682285142655,
+        "compressor_efficiency": 0.7656769682179922,
+        "base_energy_price": 0.09559948683905437,
+        "peak_price_multiplier": 2.01846725634385,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.011587074499303802,
+        "demand_multiplier": 1.1837940247346799,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_23",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 23,
+      "parameters": {
+        "source_capacity": 3263.3255426217274,
+        "sink_injection_rate": 9537.452001938595,
+        "pipeline_length_km": 90.31900096437214,
+        "pipeline_diameter_m": 0.3417753384153418,
+        "compressor_power_kw": 5960.136134428676,
+        "compressor_efficiency": 0.805087163070545,
+        "base_energy_price": 0.08710616070826045,
+        "peak_price_multiplier": 1.695454411871221,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.022228678693650653,
+        "demand_multiplier": 0.8884156692628876,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_24",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 24,
+      "parameters": {
+        "source_capacity": 2593.880411654793,
+        "sink_injection_rate": 8558.197626806861,
+        "pipeline_length_km": 26.43326982590657,
+        "pipeline_diameter_m": 0.7991413137589753,
+        "compressor_power_kw": 3970.477393618737,
+        "compressor_efficiency": 0.8372152749345798,
+        "base_energy_price": 0.05642506293514347,
+        "peak_price_multiplier": 2.636605471358557,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.035328234465186126,
+        "demand_multiplier": 1.0897797313993567,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_25",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 25,
+      "parameters": {
+        "source_capacity": 1537.4312525297157,
+        "sink_injection_rate": 9341.096569536887,
+        "pipeline_length_km": 85.9102065219018,
+        "pipeline_diameter_m": 0.4070228849760217,
+        "compressor_power_kw": 7358.540561227188,
+        "compressor_efficiency": 0.8327400269475899,
+        "base_energy_price": 0.05296744883107406,
+        "peak_price_multiplier": 2.9294580901866882,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.0152950490134722,
+        "demand_multiplier": 0.9696320626024917,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_26",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 26,
+      "parameters": {
+        "source_capacity": 2703.967488603343,
+        "sink_injection_rate": 2824.773691113187,
+        "pipeline_length_km": 28.464278868743826,
+        "pipeline_diameter_m": 0.6003785630465089,
+        "compressor_power_kw": 3283.786435718553,
+        "compressor_efficiency": 0.8509227180753064,
+        "base_energy_price": 0.10350878032600708,
+        "peak_price_multiplier": 1.5626044205967846,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.025136873189962456,
+        "demand_multiplier": 1.0541774822163523,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_27",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 27,
+      "parameters": {
+        "source_capacity": 2392.766242933482,
+        "sink_injection_rate": 7312.325868718073,
+        "pipeline_length_km": 96.13423023922611,
+        "pipeline_diameter_m": 0.3982015545440801,
+        "compressor_power_kw": 3326.8461769224996,
+        "compressor_efficiency": 0.8571534658979124,
+        "base_energy_price": 0.07331466561335244,
+        "peak_price_multiplier": 2.058562079453675,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.009166738483249698,
+        "demand_multiplier": 1.1638725794548683,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_28",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 28,
+      "parameters": {
+        "source_capacity": 705.8150860549135,
+        "sink_injection_rate": 2177.6695021308924,
+        "pipeline_length_km": 63.7534801221509,
+        "pipeline_diameter_m": 0.3890227117628105,
+        "compressor_power_kw": 3662.4835967248064,
+        "compressor_efficiency": 0.8103328122889657,
+        "base_energy_price": 0.0792297578958013,
+        "peak_price_multiplier": 1.819993717346146,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.0421131968331382,
+        "demand_multiplier": 0.852440898437507,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_low_supply_29",
+      "scenario_type": "low_supply",
+      "split": "train",
+      "is_ood": false,
+      "seed": 29,
+      "parameters": {
+        "source_capacity": 2076.575019506852,
+        "sink_injection_rate": 4112.486410042493,
+        "pipeline_length_km": 86.03659797099648,
+        "pipeline_diameter_m": 0.4442987177026716,
+        "compressor_power_kw": 5551.725131543748,
+        "compressor_efficiency": 0.7946958562812135,
+        "base_energy_price": 0.07908457496244944,
+        "peak_price_multiplier": 2.960788194451601,
+        "leakage_rate": 0.01,
+        "failure_probability": 0.022235164289249862,
+        "demand_multiplier": 0.889923026570899,
+        "supply_multiplier": 0.7,
+        "source_outage_probability": 0.02,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_10",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 10,
+      "parameters": {
+        "source_capacity": 2764.1805084941498,
+        "sink_injection_rate": 4860.001492076031,
+        "pipeline_length_km": 62.02821710210233,
+        "pipeline_diameter_m": 0.40304911606975086,
+        "compressor_power_kw": 7066.6062567866,
+        "compressor_efficiency": 0.7770665534293479,
+        "base_energy_price": 0.0957430773730823,
+        "peak_price_multiplier": 1.7403443347782295,
+        "leakage_rate": 0.010892717833158566,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.8999986706745602,
+        "supply_multiplier": 1.1811267636583647,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_11",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 11,
+      "parameters": {
+        "source_capacity": 2282.1371917147653,
+        "sink_injection_rate": 6037.951474724464,
+        "pipeline_length_km": 93.17895256213563,
+        "pipeline_diameter_m": 0.5328250350498867,
+        "compressor_power_kw": 5539.2063653113555,
+        "compressor_efficiency": 0.75,
+        "base_energy_price": 0.06292622406984136,
+        "peak_price_multiplier": 2.2678629585627084,
+        "leakage_rate": 0.012967771684119236,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.8376493824916874,
+        "supply_multiplier": 0.9213605050498102,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_12",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 12,
+      "parameters": {
+        "source_capacity": 2372.0112486886196,
+        "sink_injection_rate": 6917.252523915298,
+        "pipeline_length_km": 69.97694240123542,
+        "pipeline_diameter_m": 0.3713001764626839,
+        "compressor_power_kw": 3054.3022154503396,
+        "compressor_efficiency": 0.75,
+        "base_energy_price": 0.0691833697634832,
+        "peak_price_multiplier": 2.7155220783526257,
+        "leakage_rate": 0.014121260407735006,
+        "failure_probability": 0.03,
+        "demand_multiplier": 1.0232760191013393,
+        "supply_multiplier": 1.0645284343488004,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_13",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 13,
+      "parameters": {
+        "source_capacity": 1498.984391447668,
+        "sink_injection_rate": 7167.321936680833,
+        "pipeline_length_km": 71.56737262144998,
+        "pipeline_diameter_m": 0.724668080694965,
+        "compressor_power_kw": 3928.620869368677,
+        "compressor_efficiency": 0.75,
+        "base_energy_price": 0.060301194271789246,
+        "peak_price_multiplier": 1.837744403343169,
+        "leakage_rate": 0.014946448442042685,
+        "failure_probability": 0.03,
+        "demand_multiplier": 1.0125259007388072,
+        "supply_multiplier": 0.8855630121966963,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_14",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 14,
+      "parameters": {
+        "source_capacity": 882.6555776917055,
+        "sink_injection_rate": 7323.269715881699,
+        "pipeline_length_km": 68.6837818282848,
+        "pipeline_diameter_m": 0.770176194783059,
+        "compressor_power_kw": 4355.576132801616,
+        "compressor_efficiency": 0.75,
+        "base_energy_price": 0.10138415549012877,
+        "peak_price_multiplier": 2.4876750273601136,
+        "leakage_rate": 0.006756771503878746,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.9586694580132056,
+        "supply_multiplier": 1.1110066351560448,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_15",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 15,
+      "parameters": {
+        "source_capacity": 4359.230673286098,
+        "sink_injection_rate": 1104.8922441292702,
+        "pipeline_length_km": 76.2392457817188,
+        "pipeline_diameter_m": 0.37900636238237406,
+        "compressor_power_kw": 7931.697258314117,
+        "compressor_efficiency": 0.75,
+        "base_energy_price": 0.11156438876942698,
+        "peak_price_multiplier": 2.522025996602122,
+        "leakage_rate": 0.017289505267148973,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.8958860728655155,
+        "supply_multiplier": 0.93523110290268,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_16",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 16,
+      "parameters": {
+        "source_capacity": 1914.1672384020044,
+        "sink_injection_rate": 5324.325990411646,
+        "pipeline_length_km": 47.52573639450983,
+        "pipeline_diameter_m": 0.5233796268919616,
+        "compressor_power_kw": 5047.578649749481,
+        "compressor_efficiency": 0.7555017574312552,
+        "base_energy_price": 0.06811987673230548,
+        "peak_price_multiplier": 2.452493886155226,
+        "leakage_rate": 0.0011924390989195546,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.9340253402790876,
+        "supply_multiplier": 0.8567802070131336,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_17",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 17,
+      "parameters": {
+        "source_capacity": 2564.0348343355977,
+        "sink_injection_rate": 8260.216994068112,
+        "pipeline_length_km": 96.44452968914891,
+        "pipeline_diameter_m": 0.44481268888223274,
+        "compressor_power_kw": 6830.537188989763,
+        "compressor_efficiency": 0.7615485826896436,
+        "base_energy_price": 0.09629681400566813,
+        "peak_price_multiplier": 1.6652430733758177,
+        "leakage_rate": 0.0015117987970200094,
+        "failure_probability": 0.03,
+        "demand_multiplier": 1.0985580784665538,
+        "supply_multiplier": 0.9009535070052889,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_18",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 18,
+      "parameters": {
+        "source_capacity": 1184.1226964995462,
+        "sink_injection_rate": 6952.8749364571995,
+        "pipeline_length_km": 40.110373285075006,
+        "pipeline_diameter_m": 0.3989698020812602,
+        "compressor_power_kw": 5447.5766952405775,
+        "compressor_efficiency": 0.75,
+        "base_energy_price": 0.08358407781037003,
+        "peak_price_multiplier": 2.187496672051215,
+        "leakage_rate": 0.006026075748549705,
+        "failure_probability": 0.03,
+        "demand_multiplier": 1.076752040141821,
+        "supply_multiplier": 0.9297752574744996,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_19",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 19,
+      "parameters": {
+        "source_capacity": 3192.3595985410952,
+        "sink_injection_rate": 8064.202204783997,
+        "pipeline_length_km": 56.84195414827734,
+        "pipeline_diameter_m": 0.55574585124663,
+        "compressor_power_kw": 4967.673314629825,
+        "compressor_efficiency": 0.7995862018227269,
+        "base_energy_price": 0.07025554620421995,
+        "peak_price_multiplier": 1.7223896897770419,
+        "leakage_rate": 0.005960492916745607,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.9309468059778443,
+        "supply_multiplier": 0.9071643377378853,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_20",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 20,
+      "parameters": {
+        "source_capacity": 4117.84068850681,
+        "sink_injection_rate": 7176.287413240323,
+        "pipeline_length_km": 78.98583307263797,
+        "pipeline_diameter_m": 0.7523081189066367,
+        "compressor_power_kw": 4299.137237444885,
+        "compressor_efficiency": 0.7526443630487787,
+        "base_energy_price": 0.11334619862665352,
+        "peak_price_multiplier": 2.808195561104566,
+        "leakage_rate": 0.011885872715735213,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.9646092248163827,
+        "supply_multiplier": 1.1975352051109318,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_21",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 21,
+      "parameters": {
+        "source_capacity": 1118.0453933244519,
+        "sink_injection_rate": 7207.902317958106,
+        "pipeline_length_km": 67.14999463642485,
+        "pipeline_diameter_m": 0.5395502360287256,
+        "compressor_power_kw": 4080.071739469514,
+        "compressor_efficiency": 0.773042336566032,
+        "base_energy_price": 0.10654980113673992,
+        "peak_price_multiplier": 2.2686843594563895,
+        "leakage_rate": 0.010596598915930223,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.8012722522441189,
+        "supply_multiplier": 0.9484186766528431,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_22",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 22,
+      "parameters": {
+        "source_capacity": 4330.7479882599555,
+        "sink_injection_rate": 2263.317310687553,
+        "pipeline_length_km": 12.125453242494299,
+        "pipeline_diameter_m": 0.7993153268364572,
+        "compressor_power_kw": 3921.2682285142655,
+        "compressor_efficiency": 0.75,
+        "base_energy_price": 0.09559948683905437,
+        "peak_price_multiplier": 2.01846725634385,
+        "leakage_rate": 0.017901467856120255,
+        "failure_probability": 0.03,
+        "demand_multiplier": 1.1837940247346799,
+        "supply_multiplier": 0.9277807354214948,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_23",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 23,
+      "parameters": {
+        "source_capacity": 4195.7042690850785,
+        "sink_injection_rate": 9537.452001938595,
+        "pipeline_length_km": 90.31900096437214,
+        "pipeline_diameter_m": 0.3417753384153418,
+        "compressor_power_kw": 5960.136134428676,
+        "compressor_efficiency": 0.75,
+        "base_energy_price": 0.08710616070826045,
+        "peak_price_multiplier": 1.695454411871221,
+        "leakage_rate": 0.004647945993246561,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.8884156692628876,
+        "supply_multiplier": 0.9820131835390866,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_24",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 24,
+      "parameters": {
+        "source_capacity": 3334.98910069902,
+        "sink_injection_rate": 8558.197626806861,
+        "pipeline_length_km": 26.43326982590657,
+        "pipeline_diameter_m": 0.7991413137589753,
+        "compressor_power_kw": 3970.477393618737,
+        "compressor_efficiency": 0.7572152749345799,
+        "base_energy_price": 0.05642506293514347,
+        "peak_price_multiplier": 2.636605471358557,
+        "leakage_rate": 0.0038747048923469312,
+        "failure_probability": 0.03,
+        "demand_multiplier": 1.0897797313993567,
+        "supply_multiplier": 1.1063771129033317,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_25",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 25,
+      "parameters": {
+        "source_capacity": 1976.6973246810633,
+        "sink_injection_rate": 9341.096569536887,
+        "pipeline_length_km": 85.9102065219018,
+        "pipeline_diameter_m": 0.4070228849760217,
+        "compressor_power_kw": 7358.540561227188,
+        "compressor_efficiency": 0.7527400269475899,
+        "base_energy_price": 0.05296744883107406,
+        "peak_price_multiplier": 2.9294580901866882,
+        "leakage_rate": 0.005857989696112876,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.9696320626024917,
+        "supply_multiplier": 1.0354056056101038,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_26",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 26,
+      "parameters": {
+        "source_capacity": 3476.5296282042987,
+        "sink_injection_rate": 2824.773691113187,
+        "pipeline_length_km": 28.464278868743826,
+        "pipeline_diameter_m": 0.6003785630465089,
+        "compressor_power_kw": 3283.786435718553,
+        "compressor_efficiency": 0.7709227180753064,
+        "base_energy_price": 0.10350878032600708,
+        "peak_price_multiplier": 1.5626044205967846,
+        "leakage_rate": 0.013984503923690175,
+        "failure_probability": 0.03,
+        "demand_multiplier": 1.0541774822163523,
+        "supply_multiplier": 1.181493059523254,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_27",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 27,
+      "parameters": {
+        "source_capacity": 3076.413740914477,
+        "sink_injection_rate": 7312.325868718073,
+        "pipeline_length_km": 96.13423023922611,
+        "pipeline_diameter_m": 0.3982015545440801,
+        "compressor_power_kw": 3326.8461769224996,
+        "compressor_efficiency": 0.7771534658979125,
+        "base_energy_price": 0.07331466561335244,
+        "peak_price_multiplier": 2.058562079453675,
+        "leakage_rate": 0.01648245063912222,
+        "failure_probability": 0.03,
+        "demand_multiplier": 1.1638725794548683,
+        "supply_multiplier": 0.9964677984158451,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_28",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 28,
+      "parameters": {
+        "source_capacity": 907.4765392134603,
+        "sink_injection_rate": 2177.6695021308924,
+        "pipeline_length_km": 63.7534801221509,
+        "pipeline_diameter_m": 0.3890227117628105,
+        "compressor_power_kw": 3662.4835967248064,
+        "compressor_efficiency": 0.75,
+        "base_energy_price": 0.0792297578958013,
+        "peak_price_multiplier": 1.819993717346146,
+        "leakage_rate": 0.008441866979707814,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.852440898437507,
+        "supply_multiplier": 0.8750344818867085,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_equipment_failure_29",
+      "scenario_type": "equipment_failure",
+      "split": "train",
+      "is_ood": false,
+      "seed": 29,
+      "parameters": {
+        "source_capacity": 2669.8821679373814,
+        "sink_injection_rate": 4112.486410042493,
+        "pipeline_length_km": 86.03659797099648,
+        "pipeline_diameter_m": 0.4442987177026716,
+        "compressor_power_kw": 5551.725131543748,
+        "compressor_efficiency": 0.75,
+        "base_energy_price": 0.07908457496244944,
+        "peak_price_multiplier": 2.960788194451601,
+        "leakage_rate": 0.002970921092487768,
+        "failure_probability": 0.03,
+        "demand_multiplier": 0.889923026570899,
+        "supply_multiplier": 0.9398266258404276,
+        "source_outage_probability": 0.03,
+        "compressor_outage_probability": 0.04
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_10",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 10,
+      "parameters": {
+        "source_capacity": 3071.311676104611,
+        "sink_injection_rate": 4860.001492076031,
+        "pipeline_length_km": 62.02821710210233,
+        "pipeline_diameter_m": 0.40304911606975086,
+        "compressor_power_kw": 7066.6062567866,
+        "compressor_efficiency": 0.8570665534293479,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.016388640581104657,
+        "demand_multiplier": 0.8999986706745602,
+        "supply_multiplier": 1.1811267636583647,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_11",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 11,
+      "parameters": {
+        "source_capacity": 2535.707990794184,
+        "sink_injection_rate": 6037.951474724464,
+        "pipeline_length_km": 93.17895256213563,
+        "pipeline_diameter_m": 0.5328250350498867,
+        "compressor_power_kw": 5539.2063653113555,
+        "compressor_efficiency": 0.8263600277504866,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.03964884362599763,
+        "demand_multiplier": 0.8376493824916874,
+        "supply_multiplier": 0.9213605050498102,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_12",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 12,
+      "parameters": {
+        "source_capacity": 2635.5680540984663,
+        "sink_injection_rate": 6917.252523915298,
+        "pipeline_length_km": 69.97694240123542,
+        "pipeline_diameter_m": 0.3713001764626839,
+        "compressor_power_kw": 3054.3022154503396,
+        "compressor_efficiency": 0.7987180839682374,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.03007285193638666,
+        "demand_multiplier": 1.0232760191013393,
+        "supply_multiplier": 1.0645284343488004,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_13",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 13,
+      "parameters": {
+        "source_capacity": 1665.538212719631,
+        "sink_injection_rate": 7167.321936680833,
+        "pipeline_length_km": 71.56737262144998,
+        "pipeline_diameter_m": 0.724668080694965,
+        "compressor_power_kw": 3928.620869368677,
+        "compressor_efficiency": 0.7799726191655109,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.006510651137987844,
+        "demand_multiplier": 1.0125259007388072,
+        "supply_multiplier": 0.8855630121966963,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_14",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 14,
+      "parameters": {
+        "source_capacity": 980.7284196574506,
+        "sink_injection_rate": 7323.269715881699,
+        "pipeline_length_km": 68.6837818282848,
+        "pipeline_diameter_m": 0.770176194783059,
+        "compressor_power_kw": 4355.576132801616,
+        "compressor_efficiency": 0.783250816746295,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.034211656403847775,
+        "demand_multiplier": 0.9586694580132056,
+        "supply_multiplier": 1.1110066351560448,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_15",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 15,
+      "parameters": {
+        "source_capacity": 4843.589636984553,
+        "sink_injection_rate": 1104.8922441292702,
+        "pipeline_length_km": 76.2392457817188,
+        "pipeline_diameter_m": 0.37900636238237406,
+        "compressor_power_kw": 7931.697258314117,
+        "compressor_efficiency": 0.7521944850470369,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.04999081170830597,
+        "demand_multiplier": 0.8958860728655155,
+        "supply_multiplier": 0.93523110290268,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_16",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 16,
+      "parameters": {
+        "source_capacity": 2126.852487113338,
+        "sink_injection_rate": 5324.325990411646,
+        "pipeline_length_km": 47.52573639450983,
+        "pipeline_diameter_m": 0.5233796268919616,
+        "compressor_power_kw": 5047.578649749481,
+        "compressor_efficiency": 0.8355017574312552,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.015102185239982292,
+        "demand_multiplier": 0.9340253402790876,
+        "supply_multiplier": 0.8567802070131336,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_17",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 17,
+      "parameters": {
+        "source_capacity": 2848.9275937062193,
+        "sink_injection_rate": 8260.216994068112,
+        "pipeline_length_km": 96.44452968914891,
+        "pipeline_diameter_m": 0.44481268888223274,
+        "compressor_power_kw": 6830.537188989763,
+        "compressor_efficiency": 0.8415485826896436,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.019208555227214874,
+        "demand_multiplier": 1.0985580784665538,
+        "supply_multiplier": 0.9009535070052889,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_18",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 18,
+      "parameters": {
+        "source_capacity": 1315.6918849994959,
+        "sink_injection_rate": 6952.8749364571995,
+        "pipeline_length_km": 40.110373285075006,
+        "pipeline_diameter_m": 0.3989698020812602,
+        "compressor_power_kw": 5447.5766952405775,
+        "compressor_efficiency": 0.8142245082839328,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.012690046764624707,
+        "demand_multiplier": 1.076752040141821,
+        "supply_multiplier": 0.9297752574744996,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_19",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 19,
+      "parameters": {
+        "source_capacity": 3547.0662206012166,
+        "sink_injection_rate": 8064.202204783997,
+        "pipeline_length_km": 56.84195414827734,
+        "pipeline_diameter_m": 0.55574585124663,
+        "compressor_power_kw": 4967.673314629825,
+        "compressor_efficiency": 0.8795862018227268,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.013021859680066451,
+        "demand_multiplier": 0.9309468059778443,
+        "supply_multiplier": 0.9071643377378853,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_20",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 20,
+      "parameters": {
+        "source_capacity": 4575.378542785344,
+        "sink_injection_rate": 7176.287413240323,
+        "pipeline_length_km": 78.98583307263797,
+        "pipeline_diameter_m": 0.7523081189066367,
+        "compressor_power_kw": 4299.137237444885,
+        "compressor_efficiency": 0.8326443630487786,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.008468904356278496,
+        "demand_multiplier": 0.9646092248163827,
+        "supply_multiplier": 1.1975352051109318,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_21",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 21,
+      "parameters": {
+        "source_capacity": 1242.272659249391,
+        "sink_injection_rate": 7207.902317958106,
+        "pipeline_length_km": 67.14999463642485,
+        "pipeline_diameter_m": 0.5395502360287256,
+        "compressor_power_kw": 4080.071739469514,
+        "compressor_efficiency": 0.853042336566032,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.011802818174810527,
+        "demand_multiplier": 0.8012722522441189,
+        "supply_multiplier": 0.9484186766528431,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_22",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 22,
+      "parameters": {
+        "source_capacity": 4811.942209177728,
+        "sink_injection_rate": 2263.317310687553,
+        "pipeline_length_km": 12.125453242494299,
+        "pipeline_diameter_m": 0.7993153268364572,
+        "compressor_power_kw": 3921.2682285142655,
+        "compressor_efficiency": 0.7656769682179922,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.011587074499303802,
+        "demand_multiplier": 1.1837940247346799,
+        "supply_multiplier": 0.9277807354214948,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_23",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 23,
+      "parameters": {
+        "source_capacity": 4661.893632316754,
+        "sink_injection_rate": 9537.452001938595,
+        "pipeline_length_km": 90.31900096437214,
+        "pipeline_diameter_m": 0.3417753384153418,
+        "compressor_power_kw": 5960.136134428676,
+        "compressor_efficiency": 0.805087163070545,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.022228678693650653,
+        "demand_multiplier": 0.8884156692628876,
+        "supply_multiplier": 0.9820131835390866,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_24",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 24,
+      "parameters": {
+        "source_capacity": 3705.5434452211334,
+        "sink_injection_rate": 8558.197626806861,
+        "pipeline_length_km": 26.43326982590657,
+        "pipeline_diameter_m": 0.7991413137589753,
+        "compressor_power_kw": 3970.477393618737,
+        "compressor_efficiency": 0.8372152749345798,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.035328234465186126,
+        "demand_multiplier": 1.0897797313993567,
+        "supply_multiplier": 1.1063771129033317,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_25",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 25,
+      "parameters": {
+        "source_capacity": 2196.330360756737,
+        "sink_injection_rate": 9341.096569536887,
+        "pipeline_length_km": 85.9102065219018,
+        "pipeline_diameter_m": 0.4070228849760217,
+        "compressor_power_kw": 7358.540561227188,
+        "compressor_efficiency": 0.8327400269475899,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.0152950490134722,
+        "demand_multiplier": 0.9696320626024917,
+        "supply_multiplier": 1.0354056056101038,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_26",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 26,
+      "parameters": {
+        "source_capacity": 3862.810698004776,
+        "sink_injection_rate": 2824.773691113187,
+        "pipeline_length_km": 28.464278868743826,
+        "pipeline_diameter_m": 0.6003785630465089,
+        "compressor_power_kw": 3283.786435718553,
+        "compressor_efficiency": 0.8509227180753064,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.025136873189962456,
+        "demand_multiplier": 1.0541774822163523,
+        "supply_multiplier": 1.181493059523254,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_27",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 27,
+      "parameters": {
+        "source_capacity": 3418.237489904974,
+        "sink_injection_rate": 7312.325868718073,
+        "pipeline_length_km": 96.13423023922611,
+        "pipeline_diameter_m": 0.3982015545440801,
+        "compressor_power_kw": 3326.8461769224996,
+        "compressor_efficiency": 0.8571534658979124,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.009166738483249698,
+        "demand_multiplier": 1.1638725794548683,
+        "supply_multiplier": 0.9964677984158451,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_28",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 28,
+      "parameters": {
+        "source_capacity": 1008.3072657927337,
+        "sink_injection_rate": 2177.6695021308924,
+        "pipeline_length_km": 63.7534801221509,
+        "pipeline_diameter_m": 0.3890227117628105,
+        "compressor_power_kw": 3662.4835967248064,
+        "compressor_efficiency": 0.8103328122889657,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.0421131968331382,
+        "demand_multiplier": 0.852440898437507,
+        "supply_multiplier": 0.8750344818867085,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  },
+  {
+    "scenario": {
+      "scenario_id": "train_energy_price_spike_29",
+      "scenario_type": "energy_price_spike",
+      "split": "train",
+      "is_ood": false,
+      "seed": 29,
+      "parameters": {
+        "source_capacity": 2966.535742152646,
+        "sink_injection_rate": 4112.486410042493,
+        "pipeline_length_km": 86.03659797099648,
+        "pipeline_diameter_m": 0.4442987177026716,
+        "compressor_power_kw": 5551.725131543748,
+        "compressor_efficiency": 0.7946958562812135,
+        "base_energy_price": 0.1,
+        "peak_price_multiplier": 2.5,
+        "leakage_rate": 0.006,
+        "failure_probability": 0.022235164289249862,
+        "demand_multiplier": 0.889923026570899,
+        "supply_multiplier": 0.9398266258404276,
+        "source_outage_probability": 0.0,
+        "compressor_outage_probability": 0.0
+      }
+    },
+    "range_findings": []
+  }
+]

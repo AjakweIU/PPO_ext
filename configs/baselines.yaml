@@ -1,0 +1,19 @@
+fixed_rule:
+  source_capture_fraction: 0.70
+  compressor_control_midpoint: 1.0
+
+greedy:
+  delivery_value: 1.0
+  energy_cost_budget_usd_per_delivered_tonne: 0.50
+  source_tie_break: ascending_source_index
+  route_tie_break: ascending_compressor_index
+  pressure_ratio_candidates: [0.75, 0.875, 1.0, 1.125, 1.25]
+  throttle_candidates: [0.75, 1.0, 1.25]
+
+milp:
+  solver: CBC
+  time_limit_seconds: 10
+  mip_gap: 0.0
+  objective: normalized_throughput_minus_normalized_energy_cost_minus_normalized_simulated_leakage
+  energy_model: route-specific linearization of Phase 1 compressor power at design flow and feasible pressure ratio
+  physical_violation_handling: hard source_sink_compressor_pipeline_and_pressure_feasibility_constraints
